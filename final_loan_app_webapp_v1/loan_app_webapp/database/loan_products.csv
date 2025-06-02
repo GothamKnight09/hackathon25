@@ -1,0 +1,6 @@
+product_id,product_name,description,min_amount,max_amount,min_term_months,max_term_months,min_interest_rate,max_interest_rate
+PROD001,Prime Loan,Quos debitis inventore amet fugiat dolorem.,2063,96533,12,72,1.52,11.61
+PROD002,Flexi Loan,Autem minima minima expedita cupiditate quo a.,4581,65854,12,60,2.7,10.02
+PROD003,Quick Cash,Non dolorum reiciendis similique amet provident molestias quia.,4306,69935,6,72,3.62,11.06
+PROD004,Student Support,Quisquam dolor quisquam ab atque laborum debitis.,3232,41654,6,72,2.96,9.64
+PROD005,Quick Cash,Tempore consequatur iste asperiores dolores.,4083,36952,12,72,3.76,10.15
