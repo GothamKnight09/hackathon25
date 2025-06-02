@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Application</title>
+    <style>
+        body {
+            background-color: #0fa0dc;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 30px;
+        }
+        form {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 1000px;
+            margin: auto;
+            box-shadow: 0 0 10px #ccc;
+        }
+        h2 {
+            text-align: center;
+            color: #005EB8;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        .row label {
+            flex: 1;
+            margin-right: 15px;
+        }
+        input[type="text"], input[type="email"], input[type="number"], input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #005EB8;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 30px auto 0;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #004080;
+        }
+        .checkbox-group {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .checkbox-group label {
+            margin-right: 20px;
+        }
+        .youtube-options {
+            display: none;
+            margin-left: 20px;
+        }
+    </style>
+    <script>
+        function toggleYouTubeOptions() {
+            const shareYouTube = document.getElementById('share_youtube');
+            const ytOptions = document.getElementById('youtube_options');
+            ytOptions.style.display = shareYouTube.checked ? 'block' : 'none';
+        }
+    </script>
+</head>
+<body>
+    <form method="POST">
+        <h2>Loan Application Form</h2>
+
+        <div class="row">
+            <label style="text-align: left;">First Name:
+                <br>
+                <input type="text" name="first_name" required style="width: 450px;" style="text-align: right;">
+            </label>
+            <label style="text-align: left;">Last Name:
+                <br>
+                <input type="text" name="last_name" required style="width: 450px;">
+            </label>
+        </div>
+
+        <div class="row">
+            <label style="text-align: left;">Date of Birth:
+                <br>
+                <input type="date" name="dob" required style="width: 450px;">
+            </label>
+            <label style="text-align: left;">Email:
+                <br>
+                <input type="email" name="email" required style="width: 450px;">
+            </label>
+        </div>
+
+        <div class="row">
+            <label style="text-align: left;">Phone:
+                <br>
+                <input type="text" name="phone" required style="width: 450px;">
+            </label>
+            <label style="text-align: left;">Address:
+                <br>
+                <input type="text" name="address" required style="width: 450px;">
+            </label>
+        </div>
+
+        <div class="row">
+            <label style="text-align: left;">Profession:
+                <br>
+                <input type="text" name="profession" required style="width: 450px;">
+            </label>
+            <label style="text-align: left;">Company:
+                <br>
+                <input type="text" name="company" required style="width: 450px;">
+            </label>
+        </div>
+
+        <div class="row">
+            <label style="text-align: left;">Monthly Income:
+                <br>
+                <input type="number" name="income" required style="width: 450px;">
+            </label>
+            <label style="text-align: left;">Loan Amount:
+                <br>
+                <input type="number" name="loan_amount" required style="width: 450px;">
+            </label>
+        </div>
+
+        <div class="row">
+            <label style="text-align: left;">Loan Duration (months):
+                <br>
+                <input type="number" name="loan_duration" required style="width: 450px;">
+            </label>
+            <!-- <label>Credit Score:
+                <input type="number" name="credit_score" required>
+            </label> -->
+        </div>
+
+        <!-- <h2>Social Media Sharing</h2>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="share_twitter" value="Y"> Share Twitter Data
+            </label>
+            <label>
+                <input type="checkbox" name="share_facebook" value="Y"> Share Facebook Data
+            </label>
+            <label>
+                <input type="checkbox" name="share_linkedin" value="Y"> Share LinkedIn Data
+            </label>
+            <label>
+                <input type="checkbox" name="share_youtube" value="Y" id="share_youtube" onchange="toggleYouTubeOptions()"> Share YouTube Data
+            </label>
+        </div> -->
+
+        <!-- <div class="youtube-options" id="youtube_options">
+            <label>
+                <input type="checkbox" name="youtube_monetized" value="Y"> Monetized
+            </label>
+            <label>
+                <input type="checkbox" name="youtube_non_monetized" value="Y"> Non-Monetized
+            </label>
+        </div> -->
+
+        <h3>Social Media Sharing (Optional)</h3>
+
+        <div class="row">
+            <label>
+                <input type="checkbox" name="share_twitter" id="share_twitter" value="Y" onchange="toggleFields('twitter')"> 
+                Share Twitter Data
+            </label>
+            <label style="text-align: right;">
+                    <input type="url" name="twitter_url" placeholder="twitter_url">
+            </label>
+            <!-- <div id="twitter_url_div" class="hidden">
+                <label>Twitter URL:
+                    <input type="url" name="twitter_url" placeholder="twitter_url">
+                </label>
+            </div> -->
+        </div>
+
+        <div class="row">
+            <label>
+                <input type="checkbox" name="share_facebook" id="share_facebook" value="Y" onchange="toggleFields('facebook')"> 
+                Share Facebook Data
+            </label>
+            <label style="text-align: right;">
+                    <input type="url" name="facebook_url" placeholder="facebook_url">
+            </label>
+            <!-- <div id="facebook_url_div" class="hidden">
+                <label>Facebook URL:
+                    <input type="url" name="facebook_url" placeholder="facebook_url">
+                </label>
+            </div> -->
+        </div>
+
+        <div class="row">
+            <label>
+                <input type="checkbox" name="share_linkedin" id="share_linkedin" value="Y" onchange="toggleFields('linkedin')"> 
+                Share LinkedIn Data
+            </label>
+            <label style="text-align: right;">
+                    <input type="url" name="linkedin_url" placeholder="linkedin_url">
+            </label>
+            <!-- <div id="linkedin_url_div" class="hidden">
+                <label>LinkedIn URL:
+                    <input type="url" name="linkedin_url" placeholder="linkedin_url">
+                </label>
+            </div> -->
+        </div>
+
+        <div class="row">
+            <label>
+                <input type="checkbox" name="share_youtube" id="share_youtube" value="Y" onchange="toggleFields('youtube')"> 
+                Share YouTube Data
+            </label>
+            <label style="text-align: center;"><input type="radio" name="youtube_monetized" value="Y"> Monetized</label><br>
+            <label style="text-align: center;"><input type="radio" name="youtube_monetized" value="N"> Non-Monetized</label>
+            <label style="text-align: right;">
+                    <input type="url" name="youtube_url" placeholder="youtube_url">
+            </label>
+            <!-- <div id="youtube_url_div" class="hidden">
+                <label>YouTube URL:
+                    <input type="url" name="youtube_url" placeholder="youtube_url">
+                </label>
+            </div> -->
+            <!-- <div id="youtube_extra" class="hidden" style="margin-top: 10px; margin-left: 20px;">
+                <label><input type="checkbox" name="youtube_monetized" value="Y"> Monetized</label><br>
+                <label><input type="checkbox" name="youtube_non_monetized" value="Y"> Non-Monetized</label>
+            </div> -->
+        </div>
+
+
+        <button type="submit">Submit Application</button>
+    </form>
+</body>
+</html>

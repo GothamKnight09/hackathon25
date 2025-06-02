@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loan Decision</title>
+  <style>
+    body { background-color: #0f0f2d; color: #ffffff; font-family: Arial; text-align: center; padding-top: 40px; }
+    .result-box { display: inline-block; background: #1c1c3c; padding: 20px; border-radius: 10px; }
+    a { color: #3e9eff; }
+    img.logo { width: 100px; height: auto; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <img src="/static/batman_logo.png" class="logo" alt="Logo">
+  <h2>Loan Application Results</h2>
+  <div class="result-box">
+    <p><strong>Linear Regression Model:</strong> {{ 'Approved' if linear_result > 0.5 else 'Rejected' }}</p>
+    <p><strong>LightGBM Model:</strong> {{ 'Approved' if lgbm_result > 0.5 else 'Rejected' }}</p>
+  </div>
+  <p><a href="{{ url_for('loan_form') }}">Submit Another Application</a></p>
+</body>
+</html>
