@@ -1,0 +1,185 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Loan Decision</title>
+  <style>
+    body { background-color: #0fa0dc; color: #ffffff; font-family: Arial; text-align: center; padding-top: 40px; }
+    .result-box { display: inline-block; background: #1c1c3c; padding: 20px; border-radius: 10px; }
+    a { color: #3e9eff; }
+    img.logo { width: 100px; height: auto; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <img src="/static/batman_logo.png" class="logo" alt="Logo">
+  <h2>Loan Application Results</h2>
+  <div class="result-box">
+    <p><strong>Linear Regression Model Loan Amount : </strong> £{{ linear_result }} </p>
+    <p><strong>Linear Regression Model Interest Rate:</strong> {{ interest_rate }}% </p>
+    <p><strong>Linear Regression Model Approval Status:</strong> {{ approval_status_lr }} </p>
+  </div>
+  <div class="result-box">
+    <p><strong>LightGBM Model Loan Amount : </strong> £{{ loan_amount_lgbm }} </p>
+    <p><strong>LightGBM Model Interest Rate:</strong>  {{ interest_rate_lgbm }}% </p>
+    <p><strong>LightGBM Model Approval Status:</strong> {{ approval_status_lgbm }} </p>
+  </div>
+  <p><a href="{{ url_for('loan_form') }}">Submit Another Application</a></p>
+</body>
+</html>
+ -->
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Loan Decision</title>
+  <style>
+    body {
+      background: url("/static/batman_logo.png") no-repeat center center fixed;
+      background-size: contain; /* Use 'cover' for full screen stretch */
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 40px;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7); /* semi-transparent dark overlay */
+      padding: 40px 20px;
+      border-radius: 10px;
+      display: inline-block;
+      margin-top: 40px;
+    }
+
+    .result-box {
+      background: #1c1c3c;
+      padding: 20px;
+      margin: 10px auto;
+      border-radius: 10px;
+      width: 300px;
+    }
+
+    a {
+      color: #3e9eff;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h2>Loan Application Results</h2>
+    <div class="result-box">
+      <p><strong>Linear Regression Model Loan Amount:</strong> £{{ linear_result }}</p>
+      <p><strong>Linear Regression Model Interest Rate:</strong> {{ interest_rate }}%</p>
+      <p><strong>Linear Regression Model Approval Status:</strong> {{ approval_status_lr }}</p>
+    </div>
+    <div class="result-box">
+      <p><strong>LightGBM Model Loan Amount:</strong> £{{ loan_amount_lgbm }}</p>
+      <p><strong>LightGBM Model Interest Rate:</strong> {{ interest_rate_lgbm }}%</p>
+      <p><strong>LightGBM Model Approval Status:</strong> {{ approval_status_lgbm }}</p>
+    </div>
+    <p><a href="{{ url_for('loan_form') }}">Submit Another Application</a></p>
+  </div>
+</body>
+</html> -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loan Decision</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url("/static/batman_logo_redefined.png") no-repeat bottom center;
+      background-color: #000000;
+      background-size: 500px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .container {
+      background: rgba(15, 160, 220, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 40px 30px;
+      margin-bottom: 300px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      width: 350px;
+    }
+
+    .container h2 {
+      margin-bottom: 25px;
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+
+    .result-box {
+      background: rgba(255, 255, 255, 0.07);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      text-align: left;
+    }
+
+    .result-box p {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+
+    a {
+      color: #3e9eff;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-height: 700px) {
+      .container {
+        margin-bottom: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Loan Application Results</h2>
+
+    <div class="result-box">
+      <strong>Linear Regression Model:</strong>
+      <p>Loan Amount: £{{ linear_result }}</p>
+      <p>Interest Rate: {{ interest_rate }}%</p>
+      <p>Approval Status: {{ approval_status_lr }}</p>
+    </div>
+
+    <div class="result-box">
+      <strong>LightGBM Model:</strong>
+      <p>Loan Amount: £{{ loan_amount_lgbm }}</p>
+      <p>Interest Rate: {{ interest_rate_lgbm }}%</p>
+      <p>Approval Status: {{ approval_status_lgbm }}</p>
+    </div>
+
+    <div class="footer-link">
+      <a href="{{ url_for('loan_form') }}">← Submit Another Application</a>
+    </div>
+  </div>
+</body>
+</html>

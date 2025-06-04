@@ -1,0 +1,533 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loan Application</title>
+  <style>
+    body {
+      background-color: #0fa0dc;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+    form {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 1000px;
+      margin: auto;
+      box-shadow: 0 0 10px #ccc;
+    }
+    h2, h3 {
+      text-align: center;
+      color: #005EB8;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    .row label {
+      flex: 0 0 48%;
+      margin-bottom: 10px;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #005EB8;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      margin: 30px auto 0;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #004080;
+    }
+    /* .checkbox-group label {
+      margin-right: 20px;
+    } */
+    .checkbox-row, .radio-inline {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        flex-wrap: wrap;
+     }
+     .checkbox-row label, .radio-inline label {
+       flex: 0 0 48%;
+       display: flex;
+       align-items: center;
+       gap: 8px;
+     }
+     .checkbox-row input[type="url"] {
+       flex: 1;
+       min-width: 50px;
+     }
+  </style>
+
+</head>
+<body>
+  <form method="POST">
+    <h2>Loan Application Form</h2>
+
+    <div class="row">
+      <label>First Name:
+        <input type="text" name="first_name" required>
+      </label>
+      <label>Last Name:
+        <input type="text" name="last_name" required>
+      </label>
+      <label>Date of Birth:
+        <input type="date" name="dob" required>
+      </label>
+      <label>Gender:
+        <select name="gender" required>
+          <option value="">Select</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </label>
+      <label>Email:
+        <input type="email" name="email" id="email" required>
+      </label>
+      <label>Phone Number:
+        <input type="text" name="phone" required>
+      </label>
+      <label>Street Address:
+        <input type="text" name="address" required>
+      </label>
+      <label>City:
+        <input type="text" name="city" required>
+      </label>
+      <label>Zip Code:
+        <input type="text" name="zip_code" required>
+      </label>
+      <label>Profession:
+        <input type="text" name="profession" required>
+      </label>
+      <label>Company:
+        <input type="text" name="company" required>
+      </label>
+      <label>Monthly Income:
+        <input type="number" name="income" required>
+      </label>
+      <label>Employment Status:
+        <select name="employment_status" required>
+          <option value="">Select</option>
+          <option value="Employed">Employed</option>
+          <option value="Self-Employed">Self-Employed</option>
+          <option value="Unemployed">Unemployed</option>
+          <option value="Student">Student</option>
+          <option value="Retired">Retired</option>
+        </select>
+      </label>
+      <label>Years in Employment:
+        <input type="number" name="employment_length_years" required min="0">
+      </label>
+      <label>Housing Status:
+        <select name="housing_status" required>
+          <option value="">Select</option>
+          <option value="Own">Own</option>
+          <option value="Rent">Rent</option>
+          <option value="With Family">With Family</option>
+          <option value="Other">Other</option>
+        </select>
+      </label>
+      <label>Loan Amount Requested:
+        <input type="number" name="loan_amount" required>
+      </label>
+      <label>Loan Duration (months):
+        <input type="number" name="loan_duration" required>
+      </label>
+      <label>Purpose of Loan:
+        <input type="text" name="purpose" required>
+      </label>
+      <label>Number of Accounts Available:
+        <input type="number" name="num_accounts" required>
+      </label>
+      <label>Number of Inquiries made in 6 months:
+        <input type="number" name="num_inquiries_6m" required>
+      </label>
+      <label>Credit Score (if known):
+        <input type="number" name="credit_score" min="300" max="900">
+      </label>
+    </div>
+
+      
+    <h3>Bureau details</h3>
+
+    <div class="row">
+      <label>Debt to Income Ratio:
+        <input type="number" name="debt_to_income_ratio" step="0.01" required>
+      </label>
+      <label>Bankruptcy Declaration:
+        <select name="bankruptcy_flag" required>
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </select>
+      </label>
+      <label>Foreclosure Declaration:
+        <select name="foreclosure_flag" required>
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </select>
+      </label>
+    </div>
+
+      
+    <h3>Social Media Sharing (Optional)</h3>
+
+    <div class="row" >
+      <label> Share Twitter Data :
+      </label>
+      <label>
+        <input type="checkbox" name="share_twitter" value="Y"> 
+      </label>
+      <label> Enter Twitter URL :
+        <input type="url" name="twitter_url" placeholder="https://twitter.com/...">
+      </label>
+      <label>Twitter Activity Level:
+        <select name="twitter_activity_level" required>
+          <option value="">Select</option>
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="row">
+      <label> Share LinkedIn Data
+      </label>
+      <label>
+        <input type="checkbox" name="share_linkedin" value="Y"> 
+      </label>
+      <label> Enter LinkedIn URL :
+        <input type="url" name="linkedin_url" placeholder="https://linkedin.com/in/...">
+      </label>
+      <label>LinkedIn Activity Level:
+        <select name="linkedin_activity_level" required>
+          <option value="">Select</option>
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+      </label>        
+    </div>
+      
+    <div class="row">
+      <label> Share Facebook Data
+      </label>
+      <label>
+        <input type="checkbox" name="share_facebook" value="Y"> 
+      </label>
+      <label> Enter Facebook URL :
+        <input type="url" name="facebook_url" placeholder="https://facebook.com/...">
+      </label>
+      <label>Facebook Post Last 6 months:
+        <input type="number" name="facebook_posts_last_6m">
+      </label>
+    </div>
+      
+    <div class="row">
+      <label> Share YouTube Data
+      </label>
+      <label>
+        <input type="checkbox" name="share_youtube" value="Y"> 
+      </label>
+      <label> Enter Youtube URL :
+        <input type="url" name="youtube_url" placeholder="https://youtube.com/...">
+      </label>
+      <label>Youtube Avg Views:
+        <input type="number" name="youtube_avg_views">
+      </label>
+    </div>
+
+    <div class="row">
+      <label>YouTube Monetization Status:</label>
+      <label>
+        <input type="radio" name="youtube_monetized" value="Y"> Monetized
+        <input type="radio" name="youtube_monetized" value="N"> Non-Monetized
+      </label>
+    </div>
+
+    <button type="submit">Submit Application</button>
+  </form>
+
+  <script>
+    // Automatically extract email domain
+    document.getElementById('email').addEventListener('input', function () {
+      const email = this.value;
+      const domain = email.includes("@") ? email.split("@")[1] : "";
+      document.getElementById('email_domain').value = domain;
+    });
+  </script>
+</body>
+</html> -->
+
+
+
+
+<!-- ########################################################################################################## -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loan Application</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background: url("/static/batman_logo_redefined.png") no-repeat bottom center #000000;
+      background-size: 500px;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    form {
+      background: rgba(15, 160, 220, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 40px;
+      width: 100%;
+      max-width: 1100px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    h2, h3 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #3e9eff;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .row label {
+      flex: 1 1 45%;
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+
+    input, select {
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 8px;
+      border: 1px solid #888;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+
+    input::placeholder {
+      color: #bbb;
+    }
+
+    select option {
+      background-color: #222;
+      color: #fff;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      background-color: #3e9eff;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      margin-top: 30px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #007acc;
+    }
+
+    .checkbox-row, .radio-inline {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 15px;
+    }
+
+    .checkbox-row label, .radio-inline label {
+      flex: 1 1 45%;
+    }
+
+    @media (max-width: 768px) {
+      .row label, .checkbox-row label, .radio-inline label {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <form method="POST">
+    <h2>Loan Application Form</h2>
+
+    <div class="row">
+      <label>First Name: <input type="text" name="first_name" required></label>
+      <label>Last Name: <input type="text" name="last_name" required></label>
+      <label>Date of Birth: <input type="date" name="dob" required></label>
+      <label>Gender:
+        <select name="gender" required>
+          <option value="">Select</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label>Email: <input type="email" name="email" id="email" required></label>
+      <label>Phone Number: <input type="text" name="phone" required></label>
+      <label>Street Address: <input type="text" name="address" required></label>
+      <label>City: <input type="text" name="city" required></label>
+      <label>Zip Code: <input type="text" name="zip_code" required></label>
+      <label>Profession: <input type="text" name="profession" required></label>
+      <label>Company: <input type="text" name="company" required></label>
+      <label>Monthly Income: <input type="number" name="income" required></label>
+      <label>Employment Status:
+        <select name="employment_status" required>
+          <option value="">Select</option>
+          <option>Employed</option>
+          <option>Self-Employed</option>
+          <option>Unemployed</option>
+          <option>Student</option>
+          <option>Retired</option>
+        </select>
+      </label>
+      <label>Years in Employment: <input type="number" name="employment_length_years" required min="0"></label>
+      <label>Housing Status:
+        <select name="housing_status" required>
+          <option value="">Select</option>
+          <option>Own</option>
+          <option>Rent</option>
+          <option>With Family</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label>Loan Amount Requested: <input type="number" name="loan_amount" required></label>
+      <label>Loan Duration (months): <input type="number" name="loan_duration" required></label>
+      <label>Purpose of Loan: <input type="text" name="purpose" required></label>
+      <label>Number of Accounts Available: <input type="number" name="num_accounts" required></label>
+      <label>Number of Inquiries (Last 6 Months): <input type="number" name="num_inquiries_6m" required></label>
+      <label>Credit Score (optional): <input type="number" name="credit_score" min="300" max="900"></label>
+    </div>
+
+    <h3>Bureau Details</h3>
+    <div class="row">
+      <label>Debt to Income Ratio: <input type="number" name="debt_to_income_ratio" step="0.01" required></label>
+      <label>Bankruptcy Declared:
+        <select name="bankruptcy_flag" required>
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </select>
+      </label>
+      <label>Foreclosure Declared:
+        <select name="foreclosure_flag" required>
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </select>
+      </label>
+    </div>
+
+    <h3>Social Media Sharing (Optional)</h3>
+
+    <div class="row">
+      <label><input type="checkbox" name="share_twitter" value="Y"> Share Twitter Data</label>
+      <label>Twitter URL: <input type="url" name="twitter_url" placeholder="https://twitter.com/..."></label>
+      <label>Twitter Activity Level:
+        <select name="twitter_activity_level" required>
+          <option value="">Select</option>
+          <option>low</option>
+          <option>medium</option>
+          <option>high</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="row">
+      <label><input type="checkbox" name="share_linkedin" value="Y"> Share LinkedIn Data</label>
+      <label>LinkedIn URL: <input type="url" name="linkedin_url" placeholder="https://linkedin.com/in/..."></label>
+      <label>LinkedIn Activity Level:
+        <select name="linkedin_activity_level" required>
+          <option value="">Select</option>
+          <option>low</option>
+          <option>medium</option>
+          <option>high</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="row">
+      <label><input type="checkbox" name="share_facebook" value="Y"> Share Facebook Data</label>
+      <label>Facebook URL: <input type="url" name="facebook_url" placeholder="https://facebook.com/..."></label>
+      <label>Facebook Posts (Last 6 months): <input type="number" name="facebook_posts_last_6m"></label>
+    </div>
+
+    <div class="row">
+      <label><input type="checkbox" name="share_youtube" value="Y"> Share YouTube Data</label>
+      <label>YouTube URL: <input type="url" name="youtube_url" placeholder="https://youtube.com/..."></label>
+      <label>YouTube Avg Views: <input type="number" name="youtube_avg_views"></label>
+    </div>
+
+    <div class="radio-inline">
+      <label>YouTube Monetization:</label>
+      <label><input type="radio" name="youtube_monetized" value="Y"> Monetized</label>
+      <label><input type="radio" name="youtube_monetized" value="N"> Non-Monetized</label>
+    </div>
+
+    <button type="submit">Submit Application</button>
+  </form>
+
+  <script>
+    document.getElementById('email').addEventListener('input', function () {
+      const email = this.value;
+      const domain = email.includes("@") ? email.split("@")[1] : "";
+      // You can optionally store this in a hidden input
+      // document.getElementById('email_domain').value = domain;
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1001 @@
+application_name,product_id,application_date,loan_amount,loan_term_months,purpose,status,rejection_reason,interest_rate,customer_id
+Home Loan,PROD003,2024-06-28,53098.58,24,Car Purchase,Approved,,6.49,CUST00000
+Car Loan,PROD002,2023-06-12,18347.32,36,Car Purchase,Approved,,6.92,CUST00001
+Business Loan,PROD003,2025-01-30,33520.5,60,Debt Consolidation,Approved,,5.62,CUST00002
+Home Loan,PROD004,2023-08-14,61682.76,24,Car Purchase,Approved,,5.76,CUST00003
+Home Loan,PROD001,2023-10-20,6851.82,12,Education,Rejected,Incomplete Documents,2.96,CUST00004
+Business Loan,PROD004,2024-09-22,64937.08,12,Small Business,Approved,,10.18,CUST00005
+Home Loan,PROD005,2024-11-16,53188.65,24,Car Purchase,Approved,,5.41,CUST00006
+Business Loan,PROD001,2024-03-12,70702.02,24,Education,Approved,,7.8,CUST00007
+Car Loan,PROD002,2024-03-01,64103.35,48,Car Purchase,Rejected,Unstable Employment,8.63,CUST00008
+Home Loan,PROD004,2024-06-25,31539.75,12,Home Improvement,Rejected,Low Credit Score,6.33,CUST00009
+Business Loan,PROD005,2023-12-30,18029.25,48,Debt Consolidation,Approved,,4.84,CUST00010
+Education Loan,PROD001,2024-11-01,59468.8,48,Small Business,Approved,,9.65,CUST00011
+Education Loan,PROD005,2024-01-01,55712.23,60,Home Improvement,Rejected,Low Credit Score,6.22,CUST00012
+Car Loan,PROD002,2024-02-03,11055.65,12,Small Business,Rejected,Low Credit Score,2.96,CUST00013
+Home Loan,PROD003,2024-05-14,31202.79,48,Small Business,Rejected,Low Credit Score,6.21,CUST00014
+Car Loan,PROD005,2025-05-23,47638.44,60,Car Purchase,Rejected,Low Credit Score,2.55,CUST00015
+Education Loan,PROD003,2023-10-26,74280.6,48,Education,Approved,,5.41,CUST00016
+Personal Loan,PROD003,2024-02-09,64366.63,60,Home Improvement,Approved,,6.78,CUST00017
+Education Loan,PROD001,2023-10-08,14130.76,60,Education,Rejected,High DTI,8.88,CUST00018
+Personal Loan,PROD005,2024-03-31,54687.9,36,Car Purchase,Approved,,6.72,CUST00019
+Home Loan,PROD001,2023-12-23,41018.72,36,Small Business,Approved,,3.2,CUST00020
+Home Loan,PROD001,2023-06-29,50909.43,60,Small Business,Approved,,9.79,CUST00021
+Personal Loan,PROD001,2025-02-14,11527.14,60,Car Purchase,Rejected,Unstable Employment,4.61,CUST00022
+Car Loan,PROD004,2024-05-14,68161.56,60,Debt Consolidation,Rejected,Bankruptcy History,4.77,CUST00023
+Home Loan,PROD005,2023-08-24,50776.06,24,Education,Approved,,6.78,CUST00024
+Car Loan,PROD002,2024-11-25,46742.93,24,Small Business,Rejected,High DTI,5.83,CUST00025
+Business Loan,PROD005,2024-12-12,25999.4,24,Home Improvement,Approved,,2.89,CUST00026
+Car Loan,PROD004,2024-01-24,57099.67,36,Debt Consolidation,Approved,,8.47,CUST00027
+Personal Loan,PROD004,2025-03-23,51950.8,12,Debt Consolidation,Rejected,Low Credit Score,7.65,CUST00028
+Home Loan,PROD003,2024-10-01,22060.2,24,Small Business,Rejected,Incomplete Documents,2.68,CUST00029
+Education Loan,PROD001,2025-05-22,61610.08,36,Home Improvement,Approved,,6.43,CUST00030
+Personal Loan,PROD002,2024-08-18,26478.67,48,Education,Approved,,3.32,CUST00031
+Education Loan,PROD004,2023-08-06,9390.51,12,Small Business,Approved,,5.29,CUST00032
+Home Loan,PROD001,2023-11-02,61331.59,24,Education,Approved,,9.85,CUST00033
+Home Loan,PROD001,2023-08-24,67772.6,24,Small Business,Rejected,Low Credit Score,9.86,CUST00034
+Car Loan,PROD003,2023-07-04,68540.77,48,Education,Approved,,6.72,CUST00035
+Business Loan,PROD001,2023-12-24,20359.09,12,Car Purchase,Rejected,Bankruptcy History,8.88,CUST00036
+Education Loan,PROD001,2024-05-02,19959.91,36,Car Purchase,Approved,,4.64,CUST00037
+Home Loan,PROD002,2025-05-18,21327.8,24,Debt Consolidation,Rejected,Unstable Employment,6.62,CUST00038
+Personal Loan,PROD001,2024-12-16,27527.93,48,Small Business,Rejected,Incomplete Documents,3.73,CUST00039
+Car Loan,PROD004,2024-03-16,36722.14,60,Home Improvement,Approved,,9.49,CUST00040
+Education Loan,PROD004,2023-09-21,44938.7,48,Small Business,Approved,,9.53,CUST00041
+Car Loan,PROD005,2024-06-23,18711.05,24,Small Business,Approved,,3.84,CUST00042
+Personal Loan,PROD003,2024-01-29,45290.4,12,Home Improvement,Approved,,6.21,CUST00043
+Car Loan,PROD003,2023-07-15,51212.08,60,Home Improvement,Approved,,8.86,CUST00044
+Business Loan,PROD004,2024-12-18,57591.51,24,Debt Consolidation,Approved,,10.04,CUST00045
+Personal Loan,PROD002,2023-12-22,32877.95,48,Small Business,Approved,,4.15,CUST00046
+Business Loan,PROD002,2024-03-04,43563.88,48,Car Purchase,Rejected,Low Credit Score,3.39,CUST00047
+Car Loan,PROD003,2024-05-02,25219.58,60,Home Improvement,Approved,,4.16,CUST00048
+Home Loan,PROD001,2023-12-14,32759.46,36,Home Improvement,Rejected,Bankruptcy History,3.39,CUST00049
+Business Loan,PROD001,2024-02-06,7228.92,60,Debt Consolidation,Approved,,7.75,CUST00050
+Business Loan,PROD005,2024-01-05,47717.43,12,Debt Consolidation,Approved,,8.17,CUST00051
+Personal Loan,PROD005,2025-02-07,51227.05,24,Education,Rejected,Low Credit Score,3.41,CUST00052
+Personal Loan,PROD005,2023-11-12,25375.52,24,Education,Approved,,3.54,CUST00053
+Business Loan,PROD005,2023-07-24,64008.07,60,Education,Approved,,8.48,CUST00054
+Business Loan,PROD005,2024-10-06,19106.89,48,Debt Consolidation,Approved,,5.23,CUST00055
+Business Loan,PROD005,2023-10-18,72663.05,60,Home Improvement,Rejected,Bankruptcy History,7.25,CUST00056
+Business Loan,PROD003,2024-08-21,61080.89,24,Debt Consolidation,Rejected,Incomplete Documents,4.62,CUST00057
+Business Loan,PROD004,2023-07-15,19703.7,60,Car Purchase,Approved,,8.77,CUST00058
+Car Loan,PROD003,2023-12-03,53011.07,60,Debt Consolidation,Rejected,Low Credit Score,7.95,CUST00059
+Home Loan,PROD005,2024-07-16,43684.42,36,Small Business,Rejected,Incomplete Documents,7.01,CUST00060
+Car Loan,PROD002,2025-02-22,56498.83,24,Car Purchase,Rejected,Low Credit Score,4.66,CUST00061
+Car Loan,PROD003,2023-10-17,29693.79,24,Education,Approved,,9.47,CUST00062
+Education Loan,PROD005,2024-04-25,26620.56,60,Education,Rejected,Low Credit Score,6.87,CUST00063
+Business Loan,PROD001,2024-02-04,54184.76,60,Education,Approved,,10.5,CUST00064
+Car Loan,PROD004,2023-08-18,35470.39,12,Education,Approved,,5.92,CUST00065
+Education Loan,PROD001,2023-09-28,63981.19,48,Car Purchase,Approved,,8.94,CUST00066
+Car Loan,PROD003,2025-01-09,56175.31,60,Car Purchase,Approved,,6.21,CUST00067
+Business Loan,PROD005,2024-08-30,27675.74,24,Debt Consolidation,Approved,,7.37,CUST00068
+Business Loan,PROD003,2023-12-17,66335.63,24,Car Purchase,Rejected,Incomplete Documents,9.57,CUST00069
+Business Loan,PROD001,2024-05-17,12594.88,36,Debt Consolidation,Rejected,Low Credit Score,5.93,CUST00070
+Education Loan,PROD001,2023-10-24,37530.54,24,Small Business,Rejected,Incomplete Documents,10.32,CUST00071
+Education Loan,PROD003,2024-08-20,52459.86,12,Small Business,Approved,,5.76,CUST00072
+Car Loan,PROD004,2024-08-27,6824.05,60,Debt Consolidation,Approved,,7.02,CUST00073
+Business Loan,PROD002,2023-09-12,11725.32,48,Debt Consolidation,Approved,,9.18,CUST00074
+Home Loan,PROD005,2024-04-11,57676.31,48,Small Business,Approved,,6.18,CUST00075
+Education Loan,PROD003,2025-01-20,35044.75,48,Car Purchase,Rejected,Low Credit Score,9.68,CUST00076
+Home Loan,PROD005,2023-11-23,25192.08,48,Home Improvement,Rejected,Bankruptcy History,4.49,CUST00077
+Car Loan,PROD002,2023-10-31,70743.82,60,Debt Consolidation,Approved,,8.97,CUST00078
+Business Loan,PROD003,2024-05-16,62443.79,12,Car Purchase,Rejected,Unstable Employment,4.06,CUST00079
+Personal Loan,PROD004,2023-06-27,15030.72,60,Car Purchase,Approved,,2.71,CUST00080
+Car Loan,PROD005,2025-05-03,21592.91,36,Small Business,Approved,,8.69,CUST00081
+Personal Loan,PROD001,2024-10-22,21802.69,12,Car Purchase,Approved,,8.33,CUST00082
+Education Loan,PROD002,2025-05-24,22633.58,12,Home Improvement,Approved,,5.66,CUST00083
+Business Loan,PROD004,2023-06-28,73821.36,60,Education,Approved,,4.46,CUST00084
+Education Loan,PROD001,2024-09-09,31345.94,12,Home Improvement,Approved,,4.91,CUST00085
+Education Loan,PROD005,2024-02-27,12673.75,24,Home Improvement,Approved,,6.42,CUST00086
+Home Loan,PROD002,2023-09-04,31508.35,60,Debt Consolidation,Approved,,8.06,CUST00087
+Home Loan,PROD001,2023-07-25,62231.62,12,Small Business,Rejected,Bankruptcy History,6.85,CUST00088
+Home Loan,PROD005,2023-11-18,7253.75,36,Debt Consolidation,Rejected,Low Credit Score,7.45,CUST00089
+Business Loan,PROD001,2025-03-05,8877.35,36,Home Improvement,Approved,,7.43,CUST00090
+Education Loan,PROD004,2024-11-13,52952.1,24,Small Business,Approved,,4.08,CUST00091
+Car Loan,PROD005,2024-09-15,62354.23,48,Car Purchase,Rejected,Bankruptcy History,9.79,CUST00092
+Home Loan,PROD003,2025-04-03,61916.09,24,Debt Consolidation,Approved,,4.94,CUST00093
+Personal Loan,PROD001,2025-02-26,46065.01,48,Education,Rejected,Bankruptcy History,9.82,CUST00094
+Business Loan,PROD003,2025-05-15,27446.53,48,Car Purchase,Approved,,9.06,CUST00095
+Home Loan,PROD004,2025-02-28,5663.26,24,Education,Rejected,Bankruptcy History,2.53,CUST00096
+Car Loan,PROD005,2023-08-05,58179.82,24,Home Improvement,Rejected,Unstable Employment,8.59,CUST00097
+Business Loan,PROD001,2024-11-10,60228.4,48,Education,Approved,,9.94,CUST00098
+Education Loan,PROD001,2025-02-18,13253.44,24,Small Business,Approved,,4.36,CUST00099
+Business Loan,PROD001,2023-10-23,68260.74,36,Home Improvement,Approved,,3.92,CUST00100
+Education Loan,PROD005,2025-03-14,52756.05,60,Debt Consolidation,Approved,,6.74,CUST00101
+Home Loan,PROD002,2023-09-23,10823.56,24,Car Purchase,Approved,,4.78,CUST00102
+Education Loan,PROD002,2023-10-01,41426.06,12,Debt Consolidation,Rejected,High DTI,9.32,CUST00103
+Personal Loan,PROD002,2024-05-08,54527.69,24,Education,Rejected,Unstable Employment,7.48,CUST00104
+Home Loan,PROD004,2024-12-12,39722.3,60,Home Improvement,Approved,,4.89,CUST00105
+Education Loan,PROD001,2024-05-03,13347.14,24,Home Improvement,Rejected,High DTI,5.77,CUST00106
+Home Loan,PROD005,2023-08-17,6996.29,24,Education,Rejected,Low Credit Score,4.19,CUST00107
+Home Loan,PROD002,2024-02-29,35273.84,48,Small Business,Rejected,High DTI,5.85,CUST00108
+Personal Loan,PROD002,2024-08-04,8100.68,48,Education,Approved,,7.21,CUST00109
+Business Loan,PROD005,2023-12-16,43477.9,36,Home Improvement,Rejected,Bankruptcy History,3.12,CUST00110
+Car Loan,PROD002,2025-01-26,71021.41,48,Home Improvement,Approved,,3.3,CUST00111
+Business Loan,PROD003,2023-09-27,64838.39,36,Debt Consolidation,Approved,,2.5,CUST00112
+Business Loan,PROD001,2024-02-26,66759.68,24,Debt Consolidation,Rejected,Incomplete Documents,2.66,CUST00113
+Home Loan,PROD002,2024-11-25,58046.84,48,Small Business,Rejected,Unstable Employment,5.39,CUST00114
+Home Loan,PROD001,2023-08-06,56675.18,48,Debt Consolidation,Approved,,5.71,CUST00115
+Personal Loan,PROD001,2023-08-08,9963.55,24,Car Purchase,Rejected,Bankruptcy History,8.64,CUST00116
+Personal Loan,PROD001,2025-05-08,9987.69,48,Education,Approved,,9.88,CUST00117
+Business Loan,PROD001,2025-05-26,8568.18,24,Education,Approved,,6.33,CUST00118
+Education Loan,PROD005,2024-07-26,55612.41,24,Home Improvement,Rejected,High DTI,5.65,CUST00119
+Home Loan,PROD002,2025-01-05,20206.34,12,Education,Approved,,8.57,CUST00120
+Business Loan,PROD005,2025-04-07,59900.63,24,Home Improvement,Approved,,9.88,CUST00121
+Car Loan,PROD003,2024-06-04,31331.56,60,Car Purchase,Rejected,Bankruptcy History,6.55,CUST00122
+Business Loan,PROD005,2024-11-21,30418.99,36,Education,Approved,,4.56,CUST00123
+Business Loan,PROD004,2024-01-17,57572.31,24,Education,Approved,,5.22,CUST00124
+Car Loan,PROD005,2025-05-24,34970.46,24,Home Improvement,Approved,,5.73,CUST00125
+Business Loan,PROD002,2023-10-20,54886.29,60,Education,Rejected,Unstable Employment,9.84,CUST00126
+Home Loan,PROD003,2023-10-02,51672.92,24,Small Business,Approved,,6.27,CUST00127
+Education Loan,PROD001,2023-12-04,59544.36,48,Small Business,Approved,,7.63,CUST00128
+Business Loan,PROD004,2023-09-03,9242.72,48,Home Improvement,Approved,,3.27,CUST00129
+Education Loan,PROD004,2024-08-10,7654.19,12,Education,Rejected,Bankruptcy History,6.15,CUST00130
+Car Loan,PROD004,2024-02-12,62809.74,60,Home Improvement,Rejected,High DTI,5.0,CUST00131
+Personal Loan,PROD001,2024-06-30,31891.21,48,Car Purchase,Rejected,Incomplete Documents,9.78,CUST00132
+Home Loan,PROD002,2023-11-16,63583.24,24,Debt Consolidation,Rejected,High DTI,7.82,CUST00133
+Personal Loan,PROD002,2023-08-08,23676.26,12,Debt Consolidation,Rejected,Bankruptcy History,3.44,CUST00134
+Home Loan,PROD003,2024-11-25,6124.12,60,Education,Approved,,3.36,CUST00135
+Home Loan,PROD003,2025-01-09,25481.75,48,Small Business,Approved,,6.91,CUST00136
+Car Loan,PROD001,2023-11-17,9480.01,60,Car Purchase,Approved,,3.59,CUST00137
+Home Loan,PROD005,2023-10-13,17675.65,24,Debt Consolidation,Approved,,7.56,CUST00138
+Business Loan,PROD004,2024-09-27,48105.29,48,Small Business,Approved,,6.91,CUST00139
+Home Loan,PROD005,2024-06-10,22535.1,60,Small Business,Approved,,5.47,CUST00140
+Personal Loan,PROD002,2024-02-29,11768.28,48,Small Business,Approved,,4.31,CUST00141
+Business Loan,PROD005,2024-06-17,67839.37,36,Home Improvement,Rejected,Incomplete Documents,10.34,CUST00142
+Car Loan,PROD002,2023-06-22,50336.17,12,Debt Consolidation,Approved,,9.83,CUST00143
+Home Loan,PROD005,2023-11-04,49991.93,24,Education,Rejected,Incomplete Documents,2.77,CUST00144
+Business Loan,PROD003,2024-01-14,74773.38,60,Car Purchase,Rejected,Unstable Employment,3.29,CUST00145
+Personal Loan,PROD005,2025-05-17,52784.93,36,Small Business,Rejected,Incomplete Documents,4.52,CUST00146
+Business Loan,PROD001,2025-04-21,32438.68,12,Debt Consolidation,Rejected,Unstable Employment,7.67,CUST00147
+Education Loan,PROD005,2023-06-24,35554.11,60,Education,Approved,,4.5,CUST00148
+Home Loan,PROD004,2024-09-27,28411.23,12,Debt Consolidation,Approved,,5.23,CUST00149
+Car Loan,PROD002,2024-05-10,72152.67,60,Education,Approved,,8.89,CUST00150
+Education Loan,PROD004,2025-03-26,37098.41,48,Car Purchase,Approved,,4.1,CUST00151
+Business Loan,PROD002,2023-09-01,61771.13,12,Small Business,Approved,,3.76,CUST00152
+Education Loan,PROD003,2024-12-19,19732.36,48,Home Improvement,Approved,,5.43,CUST00153
+Business Loan,PROD001,2025-04-01,66624.37,48,Education,Approved,,3.55,CUST00154
+Business Loan,PROD005,2024-07-21,13556.39,48,Small Business,Rejected,Bankruptcy History,6.45,CUST00155
+Car Loan,PROD005,2023-08-13,24348.74,60,Small Business,Rejected,Bankruptcy History,7.05,CUST00156
+Education Loan,PROD002,2023-12-26,36614.57,24,Debt Consolidation,Approved,,5.98,CUST00157
+Business Loan,PROD005,2025-03-05,12838.11,24,Education,Approved,,3.63,CUST00158
+Home Loan,PROD005,2024-07-21,62475.5,36,Home Improvement,Rejected,Incomplete Documents,9.59,CUST00159
+Education Loan,PROD002,2024-03-14,21427.85,24,Debt Consolidation,Approved,,3.41,CUST00160
+Home Loan,PROD003,2024-01-27,8739.17,12,Debt Consolidation,Approved,,7.37,CUST00161
+Education Loan,PROD004,2023-11-26,55074.72,60,Debt Consolidation,Approved,,5.48,CUST00162
+Education Loan,PROD005,2024-04-09,52577.31,12,Home Improvement,Approved,,8.2,CUST00163
+Home Loan,PROD002,2023-09-22,70473.96,36,Small Business,Approved,,3.02,CUST00164
+Car Loan,PROD003,2024-10-09,18460.42,36,Debt Consolidation,Rejected,Unstable Employment,3.05,CUST00165
+Car Loan,PROD005,2025-01-23,65759.58,48,Small Business,Rejected,Bankruptcy History,8.84,CUST00166
+Education Loan,PROD002,2024-05-08,45224.94,24,Small Business,Rejected,Unstable Employment,3.17,CUST00167
+Personal Loan,PROD002,2024-10-21,24131.87,24,Car Purchase,Approved,,4.88,CUST00168
+Business Loan,PROD005,2023-12-26,44252.02,36,Education,Approved,,4.56,CUST00169
+Car Loan,PROD002,2024-07-10,10107.19,60,Small Business,Approved,,8.35,CUST00170
+Home Loan,PROD003,2025-03-18,25935.61,48,Car Purchase,Approved,,6.12,CUST00171
+Personal Loan,PROD001,2024-12-19,13936.66,36,Small Business,Rejected,High DTI,8.92,CUST00172
+Personal Loan,PROD004,2023-08-23,44587.23,24,Education,Rejected,Unstable Employment,9.71,CUST00173
+Car Loan,PROD005,2024-08-10,39683.01,24,Education,Approved,,10.03,CUST00174
+Business Loan,PROD002,2024-05-27,67430.77,24,Debt Consolidation,Approved,,7.11,CUST00175
+Business Loan,PROD005,2023-10-27,70372.54,36,Home Improvement,Approved,,5.08,CUST00176
+Car Loan,PROD005,2023-08-31,30594.95,12,Education,Rejected,Incomplete Documents,2.86,CUST00177
+Personal Loan,PROD003,2024-06-07,46244.06,12,Small Business,Rejected,Bankruptcy History,8.28,CUST00178
+Personal Loan,PROD004,2024-12-15,59146.34,60,Debt Consolidation,Approved,,3.7,CUST00179
+Home Loan,PROD005,2024-08-04,36091.14,36,Debt Consolidation,Rejected,Bankruptcy History,3.91,CUST00180
+Personal Loan,PROD002,2025-04-11,51348.91,12,Car Purchase,Approved,,3.76,CUST00181
+Personal Loan,PROD005,2025-01-17,68291.46,12,Small Business,Approved,,4.35,CUST00182
+Business Loan,PROD001,2024-02-01,25398.16,12,Education,Approved,,9.31,CUST00183
+Business Loan,PROD004,2023-09-14,37092.73,24,Home Improvement,Approved,,2.69,CUST00184
+Car Loan,PROD005,2024-09-04,39621.04,36,Car Purchase,Rejected,Incomplete Documents,3.18,CUST00185
+Personal Loan,PROD001,2024-06-08,73974.13,12,Car Purchase,Rejected,Unstable Employment,7.2,CUST00186
+Education Loan,PROD003,2024-05-02,22957.28,12,Debt Consolidation,Approved,,7.01,CUST00187
+Personal Loan,PROD004,2024-01-13,10380.7,12,Debt Consolidation,Approved,,8.9,CUST00188
+Personal Loan,PROD002,2023-10-06,69772.96,12,Car Purchase,Approved,,9.5,CUST00189
+Car Loan,PROD003,2025-02-24,28923.03,60,Education,Rejected,High DTI,5.11,CUST00190
+Education Loan,PROD005,2025-05-20,7456.13,12,Car Purchase,Approved,,7.71,CUST00191
+Education Loan,PROD004,2024-06-30,42443.33,36,Home Improvement,Approved,,6.17,CUST00192
+Home Loan,PROD005,2023-12-15,68534.17,36,Car Purchase,Approved,,3.84,CUST00193
+Home Loan,PROD003,2024-10-22,5676.64,12,Home Improvement,Approved,,3.09,CUST00194
+Personal Loan,PROD002,2025-04-01,20636.0,48,Small Business,Rejected,Bankruptcy History,2.77,CUST00195
+Business Loan,PROD001,2025-01-05,40199.06,60,Education,Rejected,Incomplete Documents,5.01,CUST00196
+Business Loan,PROD001,2024-03-31,17633.81,60,Car Purchase,Approved,,8.5,CUST00197
+Education Loan,PROD001,2024-08-02,19311.59,36,Debt Consolidation,Approved,,8.0,CUST00198
+Car Loan,PROD002,2024-02-03,29448.54,60,Small Business,Approved,,6.59,CUST00199
+Business Loan,PROD003,2023-09-06,70370.69,48,Car Purchase,Approved,,2.8,CUST00200
+Car Loan,PROD003,2024-09-02,40018.52,60,Education,Rejected,Bankruptcy History,9.34,CUST00201
+Home Loan,PROD003,2023-09-28,46158.2,60,Small Business,Approved,,4.71,CUST00202
+Education Loan,PROD004,2024-04-09,32837.68,60,Debt Consolidation,Rejected,Bankruptcy History,7.94,CUST00203
+Personal Loan,PROD002,2023-07-23,67356.83,24,Education,Approved,,2.83,CUST00204
+Personal Loan,PROD005,2024-06-14,10007.72,36,Debt Consolidation,Approved,,5.1,CUST00205
+Business Loan,PROD003,2024-11-19,21294.58,60,Education,Approved,,4.62,CUST00206
+Personal Loan,PROD003,2025-05-23,20488.9,60,Car Purchase,Rejected,Unstable Employment,4.07,CUST00207
+Business Loan,PROD002,2024-10-30,14143.68,36,Small Business,Approved,,9.97,CUST00208
+Home Loan,PROD001,2025-01-18,15093.26,48,Debt Consolidation,Approved,,4.14,CUST00209
+Home Loan,PROD002,2024-03-01,22238.6,12,Home Improvement,Approved,,9.96,CUST00210
+Home Loan,PROD002,2024-11-15,57899.99,36,Car Purchase,Rejected,Unstable Employment,8.82,CUST00211
+Business Loan,PROD002,2024-07-25,12333.08,12,Car Purchase,Approved,,9.19,CUST00212
+Car Loan,PROD001,2025-02-22,33573.52,36,Home Improvement,Rejected,Unstable Employment,4.6,CUST00213
+Car Loan,PROD001,2025-03-03,45302.51,36,Debt Consolidation,Approved,,9.08,CUST00214
+Education Loan,PROD001,2024-04-06,59505.65,60,Education,Rejected,High DTI,9.62,CUST00215
+Business Loan,PROD002,2025-03-09,69969.25,12,Debt Consolidation,Approved,,4.4,CUST00216
+Personal Loan,PROD003,2024-09-10,34670.05,60,Small Business,Rejected,Incomplete Documents,2.62,CUST00217
+Education Loan,PROD004,2023-09-25,66552.52,60,Education,Rejected,Incomplete Documents,3.74,CUST00218
+Car Loan,PROD004,2024-05-16,65303.24,24,Education,Approved,,5.14,CUST00219
+Education Loan,PROD004,2024-11-28,30769.35,36,Education,Approved,,2.81,CUST00220
+Car Loan,PROD001,2024-12-05,27881.52,24,Debt Consolidation,Approved,,9.61,CUST00221
+Business Loan,PROD002,2024-01-08,6788.32,36,Car Purchase,Rejected,Unstable Employment,5.75,CUST00222
+Home Loan,PROD005,2023-10-04,7197.97,24,Car Purchase,Approved,,5.47,CUST00223
+Business Loan,PROD001,2024-10-24,17084.84,24,Car Purchase,Approved,,4.52,CUST00224
+Home Loan,PROD002,2024-09-19,66431.89,24,Small Business,Approved,,5.99,CUST00225
+Car Loan,PROD001,2023-07-10,24165.86,36,Small Business,Approved,,7.21,CUST00226
+Home Loan,PROD001,2025-03-07,14947.49,48,Home Improvement,Rejected,Low Credit Score,4.58,CUST00227
+Business Loan,PROD002,2024-10-14,43237.36,48,Education,Rejected,Unstable Employment,4.4,CUST00228
+Car Loan,PROD002,2023-07-13,52538.94,60,Education,Approved,,6.43,CUST00229
+Personal Loan,PROD001,2023-11-23,59039.23,60,Education,Rejected,High DTI,10.09,CUST00230
+Education Loan,PROD005,2024-09-25,13106.34,12,Education,Approved,,5.18,CUST00231
+Car Loan,PROD002,2025-03-23,27368.43,36,Education,Rejected,Bankruptcy History,3.71,CUST00232
+Personal Loan,PROD003,2023-09-02,61721.22,36,Small Business,Approved,,8.58,CUST00233
+Personal Loan,PROD004,2024-04-01,38909.78,24,Education,Approved,,6.8,CUST00234
+Car Loan,PROD005,2023-09-04,9168.09,12,Debt Consolidation,Approved,,6.94,CUST00235
+Car Loan,PROD005,2023-07-04,60393.91,12,Small Business,Approved,,7.09,CUST00236
+Education Loan,PROD004,2023-09-17,23571.45,60,Car Purchase,Approved,,7.84,CUST00237
+Home Loan,PROD004,2024-07-03,30304.19,12,Small Business,Approved,,6.86,CUST00238
+Car Loan,PROD004,2023-08-04,39129.58,12,Education,Approved,,5.55,CUST00239
+Car Loan,PROD001,2023-08-25,55321.46,48,Car Purchase,Approved,,9.57,CUST00240
+Car Loan,PROD004,2025-05-01,5364.88,24,Small Business,Approved,,9.97,CUST00241
+Business Loan,PROD002,2023-08-23,40806.06,12,Debt Consolidation,Approved,,8.11,CUST00242
+Car Loan,PROD002,2023-08-19,64893.72,24,Small Business,Rejected,Incomplete Documents,6.24,CUST00243
+Business Loan,PROD002,2024-06-16,63448.19,48,Home Improvement,Rejected,High DTI,3.92,CUST00244
+Education Loan,PROD003,2023-06-28,16141.73,60,Debt Consolidation,Rejected,Low Credit Score,7.76,CUST00245
+Car Loan,PROD005,2024-01-21,65910.01,60,Car Purchase,Approved,,9.64,CUST00246
+Car Loan,PROD002,2023-06-17,50061.83,36,Debt Consolidation,Approved,,6.7,CUST00247
+Car Loan,PROD005,2024-01-13,28197.52,60,Car Purchase,Approved,,10.34,CUST00248
+Personal Loan,PROD005,2024-12-05,27378.7,36,Education,Rejected,Unstable Employment,8.45,CUST00249
+Home Loan,PROD004,2025-04-27,42238.73,48,Education,Approved,,7.37,CUST00250
+Car Loan,PROD002,2024-06-21,32543.64,48,Debt Consolidation,Approved,,10.22,CUST00251
+Car Loan,PROD001,2024-07-28,45017.76,60,Debt Consolidation,Rejected,Unstable Employment,10.0,CUST00252
+Personal Loan,PROD005,2024-10-23,5531.4,48,Home Improvement,Rejected,Incomplete Documents,7.08,CUST00253
+Car Loan,PROD004,2024-10-25,55203.08,60,Small Business,Approved,,8.46,CUST00254
+Education Loan,PROD001,2025-02-13,68348.38,24,Car Purchase,Rejected,Incomplete Documents,2.54,CUST00255
+Education Loan,PROD001,2024-05-31,5023.11,24,Home Improvement,Approved,,6.28,CUST00256
+Personal Loan,PROD002,2023-11-27,7050.56,60,Education,Approved,,10.3,CUST00257
+Business Loan,PROD004,2024-06-05,20544.56,12,Car Purchase,Approved,,6.28,CUST00258
+Education Loan,PROD003,2024-01-20,9279.63,24,Small Business,Rejected,Incomplete Documents,6.68,CUST00259
+Business Loan,PROD002,2024-07-02,31596.93,24,Car Purchase,Approved,,2.86,CUST00260
+Home Loan,PROD001,2023-07-10,28458.7,24,Education,Rejected,Unstable Employment,5.63,CUST00261
+Home Loan,PROD005,2024-03-18,74294.5,24,Car Purchase,Approved,,4.16,CUST00262
+Home Loan,PROD001,2023-09-15,43134.57,36,Education,Rejected,Incomplete Documents,10.4,CUST00263
+Business Loan,PROD004,2023-09-01,60441.34,60,Small Business,Approved,,10.45,CUST00264
+Business Loan,PROD005,2024-12-16,72780.88,48,Debt Consolidation,Approved,,6.42,CUST00265
+Car Loan,PROD003,2024-11-16,53746.31,60,Debt Consolidation,Approved,,3.38,CUST00266
+Car Loan,PROD002,2024-05-26,35880.42,60,Education,Approved,,8.97,CUST00267
+Home Loan,PROD001,2024-12-18,40373.47,24,Debt Consolidation,Rejected,Low Credit Score,8.12,CUST00268
+Personal Loan,PROD002,2023-06-04,57202.59,48,Small Business,Rejected,Low Credit Score,4.53,CUST00269
+Business Loan,PROD003,2023-09-09,66298.96,12,Education,Approved,,6.18,CUST00270
+Home Loan,PROD003,2023-07-08,19712.96,24,Car Purchase,Approved,,9.42,CUST00271
+Business Loan,PROD001,2024-06-24,34247.32,12,Car Purchase,Approved,,8.5,CUST00272
+Business Loan,PROD002,2025-05-14,43362.32,60,Home Improvement,Rejected,Unstable Employment,5.55,CUST00273
+Home Loan,PROD003,2023-12-06,61691.35,24,Education,Approved,,7.18,CUST00274
+Personal Loan,PROD005,2024-08-13,32339.35,24,Home Improvement,Approved,,3.38,CUST00275
+Business Loan,PROD002,2025-03-22,67681.17,12,Small Business,Approved,,2.78,CUST00276
+Education Loan,PROD004,2024-06-11,65423.11,12,Small Business,Rejected,High DTI,5.38,CUST00277
+Education Loan,PROD001,2025-01-18,49753.71,60,Home Improvement,Approved,,9.88,CUST00278
+Car Loan,PROD004,2023-07-15,15619.46,12,Car Purchase,Rejected,High DTI,7.04,CUST00279
+Home Loan,PROD002,2024-10-02,58510.3,24,Education,Rejected,Low Credit Score,8.56,CUST00280
+Education Loan,PROD004,2023-08-03,41794.23,24,Home Improvement,Approved,,7.5,CUST00281
+Home Loan,PROD005,2024-04-20,58026.89,12,Home Improvement,Approved,,9.23,CUST00282
+Home Loan,PROD004,2024-11-10,58326.92,48,Home Improvement,Approved,,5.33,CUST00283
+Car Loan,PROD002,2023-11-25,74770.85,12,Home Improvement,Approved,,5.98,CUST00284
+Business Loan,PROD001,2023-09-06,6712.53,48,Car Purchase,Approved,,5.4,CUST00285
+Personal Loan,PROD005,2024-04-25,13944.81,48,Car Purchase,Rejected,High DTI,3.47,CUST00286
+Business Loan,PROD002,2023-09-10,24707.45,12,Debt Consolidation,Approved,,2.93,CUST00287
+Business Loan,PROD002,2024-08-24,53195.85,48,Debt Consolidation,Rejected,Bankruptcy History,3.09,CUST00288
+Car Loan,PROD005,2024-02-02,19230.27,12,Car Purchase,Approved,,3.24,CUST00289
+Education Loan,PROD003,2024-07-05,9421.74,60,Car Purchase,Rejected,Low Credit Score,4.64,CUST00290
+Personal Loan,PROD002,2023-07-22,45032.93,12,Debt Consolidation,Rejected,Low Credit Score,10.22,CUST00291
+Home Loan,PROD005,2025-05-15,66288.97,48,Small Business,Approved,,9.51,CUST00292
+Car Loan,PROD003,2023-07-12,17324.69,12,Debt Consolidation,Rejected,Incomplete Documents,4.62,CUST00293
+Car Loan,PROD002,2025-03-08,10347.53,60,Debt Consolidation,Approved,,8.73,CUST00294
+Education Loan,PROD002,2025-05-05,9887.14,12,Small Business,Approved,,6.95,CUST00295
+Car Loan,PROD003,2024-05-17,22351.29,36,Education,Approved,,4.45,CUST00296
+Home Loan,PROD001,2024-06-07,74350.75,24,Small Business,Rejected,Incomplete Documents,8.55,CUST00297
+Personal Loan,PROD002,2023-08-27,63585.76,60,Home Improvement,Rejected,Bankruptcy History,7.08,CUST00298
+Home Loan,PROD002,2024-08-26,65971.0,48,Home Improvement,Approved,,7.66,CUST00299
+Car Loan,PROD003,2024-04-04,71232.16,24,Debt Consolidation,Rejected,Bankruptcy History,4.75,CUST00300
+Business Loan,PROD003,2024-10-23,46672.37,60,Education,Rejected,Unstable Employment,8.02,CUST00301
+Personal Loan,PROD002,2025-05-14,32505.61,24,Home Improvement,Approved,,9.54,CUST00302
+Personal Loan,PROD001,2024-06-21,73586.22,24,Car Purchase,Rejected,Low Credit Score,6.45,CUST00303
+Education Loan,PROD001,2024-05-04,32344.85,48,Debt Consolidation,Rejected,Low Credit Score,6.28,CUST00304
+Business Loan,PROD002,2024-06-16,64691.57,48,Small Business,Rejected,High DTI,7.66,CUST00305
+Education Loan,PROD003,2025-04-06,8134.07,12,Car Purchase,Approved,,6.84,CUST00306
+Business Loan,PROD005,2025-01-02,6211.01,12,Home Improvement,Rejected,Bankruptcy History,8.73,CUST00307
+Education Loan,PROD004,2023-12-17,27981.86,60,Education,Rejected,Low Credit Score,6.28,CUST00308
+Car Loan,PROD002,2023-07-23,60907.47,24,Small Business,Rejected,Unstable Employment,2.87,CUST00309
+Home Loan,PROD003,2024-11-15,16097.91,36,Debt Consolidation,Approved,,5.68,CUST00310
+Car Loan,PROD001,2024-04-09,21094.76,24,Home Improvement,Rejected,Unstable Employment,5.2,CUST00311
+Car Loan,PROD001,2024-03-26,74872.23,12,Home Improvement,Approved,,9.1,CUST00312
+Business Loan,PROD003,2025-03-06,66873.13,48,Education,Approved,,10.0,CUST00313
+Business Loan,PROD004,2023-07-11,28865.51,36,Debt Consolidation,Rejected,Bankruptcy History,4.88,CUST00314
+Business Loan,PROD001,2024-04-11,21384.37,36,Small Business,Rejected,Bankruptcy History,9.14,CUST00315
+Personal Loan,PROD003,2023-12-25,52568.63,36,Education,Approved,,4.39,CUST00316
+Car Loan,PROD002,2024-07-31,31389.57,36,Education,Approved,,6.55,CUST00317
+Home Loan,PROD002,2024-02-19,41969.8,36,Education,Rejected,Bankruptcy History,9.61,CUST00318
+Home Loan,PROD001,2025-04-10,31639.63,12,Home Improvement,Rejected,Incomplete Documents,9.77,CUST00319
+Home Loan,PROD005,2024-08-01,35895.73,12,Home Improvement,Approved,,8.47,CUST00320
+Car Loan,PROD001,2024-11-11,70117.8,48,Small Business,Approved,,9.76,CUST00321
+Car Loan,PROD001,2025-02-27,8986.7,48,Debt Consolidation,Rejected,Bankruptcy History,4.15,CUST00322
+Home Loan,PROD004,2025-01-02,38383.38,24,Education,Approved,,5.95,CUST00323
+Business Loan,PROD001,2025-01-14,49862.42,60,Small Business,Rejected,Low Credit Score,10.06,CUST00324
+Home Loan,PROD003,2024-07-12,12868.33,48,Car Purchase,Rejected,Low Credit Score,6.11,CUST00325
+Business Loan,PROD001,2024-07-26,18468.77,12,Home Improvement,Rejected,Unstable Employment,9.65,CUST00326
+Education Loan,PROD001,2024-10-21,72520.61,24,Small Business,Approved,,6.33,CUST00327
+Home Loan,PROD004,2024-01-10,12280.72,48,Car Purchase,Rejected,Low Credit Score,8.78,CUST00328
+Home Loan,PROD004,2025-02-01,53799.89,24,Debt Consolidation,Approved,,5.34,CUST00329
+Home Loan,PROD001,2024-10-04,67118.52,36,Debt Consolidation,Approved,,10.31,CUST00330
+Business Loan,PROD003,2025-02-13,44049.77,48,Car Purchase,Rejected,Unstable Employment,7.03,CUST00331
+Education Loan,PROD002,2024-01-30,25825.95,12,Car Purchase,Approved,,7.18,CUST00332
+Home Loan,PROD001,2023-12-25,35774.96,60,Car Purchase,Rejected,Bankruptcy History,4.92,CUST00333
+Personal Loan,PROD005,2024-10-31,9702.96,60,Education,Rejected,Unstable Employment,4.52,CUST00334
+Education Loan,PROD004,2023-09-15,18849.83,60,Debt Consolidation,Approved,,6.84,CUST00335
+Education Loan,PROD001,2024-01-10,47116.9,24,Small Business,Rejected,Low Credit Score,7.37,CUST00336
+Home Loan,PROD003,2024-02-22,32172.67,24,Car Purchase,Approved,,5.87,CUST00337
+Business Loan,PROD004,2023-07-17,63396.69,24,Education,Approved,,6.31,CUST00338
+Personal Loan,PROD004,2025-05-02,74144.13,48,Car Purchase,Rejected,Bankruptcy History,6.02,CUST00339
+Home Loan,PROD003,2023-12-30,50470.67,60,Home Improvement,Approved,,2.9,CUST00340
+Business Loan,PROD002,2024-12-22,50733.79,24,Education,Approved,,9.31,CUST00341
+Home Loan,PROD001,2024-09-22,70972.05,12,Debt Consolidation,Approved,,10.48,CUST00342
+Education Loan,PROD004,2025-01-01,24752.51,48,Debt Consolidation,Rejected,Low Credit Score,7.1,CUST00343
+Personal Loan,PROD005,2024-06-29,36550.26,12,Home Improvement,Approved,,7.01,CUST00344
+Home Loan,PROD001,2024-07-03,16021.71,48,Small Business,Approved,,9.35,CUST00345
+Education Loan,PROD004,2024-04-10,68669.83,12,Home Improvement,Rejected,Unstable Employment,6.1,CUST00346
+Home Loan,PROD003,2024-01-14,24630.09,60,Car Purchase,Approved,,3.63,CUST00347
+Business Loan,PROD005,2025-03-24,52863.54,12,Small Business,Approved,,5.0,CUST00348
+Personal Loan,PROD005,2024-03-02,68667.7,12,Debt Consolidation,Approved,,7.87,CUST00349
+Car Loan,PROD001,2023-11-21,50197.97,36,Home Improvement,Rejected,High DTI,6.98,CUST00350
+Personal Loan,PROD005,2024-06-25,8204.34,60,Small Business,Approved,,9.96,CUST00351
+Home Loan,PROD005,2024-04-25,48955.62,36,Small Business,Approved,,10.45,CUST00352
+Education Loan,PROD004,2024-08-09,42614.95,60,Small Business,Approved,,8.18,CUST00353
+Education Loan,PROD002,2025-01-02,8934.67,12,Education,Rejected,High DTI,7.55,CUST00354
+Business Loan,PROD004,2024-01-15,58525.47,12,Education,Rejected,Bankruptcy History,8.73,CUST00355
+Business Loan,PROD005,2024-02-02,58907.82,36,Home Improvement,Approved,,4.31,CUST00356
+Education Loan,PROD004,2023-08-23,73277.89,12,Car Purchase,Approved,,10.46,CUST00357
+Car Loan,PROD004,2023-10-13,10291.71,36,Education,Rejected,Low Credit Score,9.99,CUST00358
+Education Loan,PROD005,2024-04-20,25261.44,36,Car Purchase,Rejected,High DTI,8.01,CUST00359
+Car Loan,PROD003,2024-02-13,28667.76,48,Car Purchase,Rejected,High DTI,10.24,CUST00360
+Business Loan,PROD005,2025-04-18,12105.27,60,Debt Consolidation,Approved,,6.48,CUST00361
+Business Loan,PROD005,2023-10-17,34963.35,12,Education,Rejected,Incomplete Documents,5.11,CUST00362
+Home Loan,PROD001,2024-06-19,50187.38,36,Car Purchase,Approved,,3.55,CUST00363
+Education Loan,PROD002,2025-04-24,55166.37,12,Education,Rejected,High DTI,10.34,CUST00364
+Home Loan,PROD005,2024-04-19,61319.11,48,Small Business,Approved,,9.38,CUST00365
+Car Loan,PROD001,2024-04-24,30174.57,12,Home Improvement,Rejected,Bankruptcy History,5.1,CUST00366
+Car Loan,PROD001,2024-05-12,41193.38,36,Home Improvement,Approved,,2.87,CUST00367
+Business Loan,PROD001,2025-06-01,71175.07,24,Small Business,Rejected,Unstable Employment,3.65,CUST00368
+Business Loan,PROD005,2023-12-03,68210.91,60,Small Business,Approved,,3.17,CUST00369
+Business Loan,PROD004,2023-08-25,62583.74,24,Home Improvement,Approved,,3.72,CUST00370
+Home Loan,PROD004,2024-02-23,7669.21,12,Small Business,Approved,,8.26,CUST00371
+Business Loan,PROD005,2024-03-14,24618.57,36,Home Improvement,Rejected,Incomplete Documents,8.22,CUST00372
+Home Loan,PROD005,2023-10-13,43855.97,48,Debt Consolidation,Approved,,3.37,CUST00373
+Personal Loan,PROD005,2024-02-02,70249.11,24,Car Purchase,Approved,,6.12,CUST00374
+Home Loan,PROD004,2025-03-13,56411.31,36,Small Business,Approved,,6.51,CUST00375
+Business Loan,PROD002,2023-12-28,47305.3,60,Small Business,Rejected,Bankruptcy History,4.92,CUST00376
+Personal Loan,PROD004,2023-08-12,19025.22,12,Car Purchase,Rejected,Incomplete Documents,6.84,CUST00377
+Home Loan,PROD001,2024-11-22,35815.33,36,Small Business,Approved,,5.62,CUST00378
+Home Loan,PROD004,2024-05-29,52079.7,48,Debt Consolidation,Approved,,8.02,CUST00379
+Education Loan,PROD001,2025-03-07,8214.4,24,Car Purchase,Approved,,5.21,CUST00380
+Education Loan,PROD005,2024-07-24,33823.52,12,Small Business,Rejected,Unstable Employment,3.28,CUST00381
+Education Loan,PROD001,2023-11-14,21513.06,12,Small Business,Rejected,High DTI,2.91,CUST00382
+Education Loan,PROD005,2025-05-08,74736.95,36,Car Purchase,Approved,,8.39,CUST00383
+Business Loan,PROD004,2023-10-21,11121.51,60,Small Business,Approved,,2.66,CUST00384
+Car Loan,PROD004,2023-08-09,55350.15,48,Education,Rejected,Incomplete Documents,6.01,CUST00385
+Home Loan,PROD003,2023-08-02,60075.77,12,Small Business,Approved,,9.89,CUST00386
+Personal Loan,PROD002,2023-09-27,46951.03,12,Debt Consolidation,Approved,,4.0,CUST00387
+Home Loan,PROD005,2024-03-23,59753.58,48,Home Improvement,Approved,,10.15,CUST00388
+Personal Loan,PROD004,2024-07-24,45616.19,12,Education,Approved,,7.96,CUST00389
+Business Loan,PROD002,2023-08-25,28623.23,24,Debt Consolidation,Rejected,Bankruptcy History,5.55,CUST00390
+Business Loan,PROD005,2024-08-04,56425.81,24,Education,Rejected,Unstable Employment,9.92,CUST00391
+Personal Loan,PROD001,2024-04-17,49029.19,48,Education,Rejected,Incomplete Documents,8.82,CUST00392
+Car Loan,PROD003,2024-07-07,17014.45,12,Small Business,Approved,,4.2,CUST00393
+Education Loan,PROD003,2024-03-15,42242.43,60,Education,Rejected,Bankruptcy History,3.91,CUST00394
+Business Loan,PROD002,2023-06-20,49449.65,36,Small Business,Approved,,4.83,CUST00395
+Education Loan,PROD001,2025-03-21,60407.28,36,Small Business,Rejected,Bankruptcy History,8.96,CUST00396
+Personal Loan,PROD002,2024-03-31,37465.12,12,Home Improvement,Rejected,Bankruptcy History,3.95,CUST00397
+Car Loan,PROD005,2023-11-15,50274.25,36,Home Improvement,Approved,,10.44,CUST00398
+Education Loan,PROD002,2024-01-19,48581.36,24,Debt Consolidation,Approved,,2.79,CUST00399
+Business Loan,PROD002,2024-02-10,6210.58,48,Small Business,Rejected,Unstable Employment,5.06,CUST00400
+Business Loan,PROD002,2024-07-15,18704.87,12,Small Business,Approved,,9.0,CUST00401
+Business Loan,PROD002,2024-11-07,64136.4,36,Education,Rejected,Incomplete Documents,4.57,CUST00402
+Business Loan,PROD005,2024-02-21,27795.13,24,Small Business,Approved,,4.39,CUST00403
+Home Loan,PROD004,2024-04-20,68586.78,24,Debt Consolidation,Approved,,6.52,CUST00404
+Education Loan,PROD004,2025-01-01,50929.59,24,Small Business,Approved,,5.82,CUST00405
+Education Loan,PROD005,2024-11-17,49170.99,60,Education,Rejected,Low Credit Score,5.59,CUST00406
+Home Loan,PROD005,2024-09-02,28777.49,12,Debt Consolidation,Rejected,Low Credit Score,7.58,CUST00407
+Home Loan,PROD002,2024-06-17,46374.35,12,Car Purchase,Rejected,Incomplete Documents,4.85,CUST00408
+Personal Loan,PROD005,2025-05-15,15454.39,24,Car Purchase,Approved,,5.45,CUST00409
+Education Loan,PROD001,2024-06-12,34063.83,24,Education,Rejected,High DTI,7.53,CUST00410
+Education Loan,PROD001,2023-07-21,69017.01,36,Car Purchase,Approved,,2.79,CUST00411
+Car Loan,PROD001,2023-06-03,22056.27,36,Small Business,Rejected,Unstable Employment,4.05,CUST00412
+Business Loan,PROD001,2024-01-12,40160.61,48,Debt Consolidation,Approved,,5.94,CUST00413
+Home Loan,PROD002,2024-03-13,56032.63,36,Debt Consolidation,Approved,,4.44,CUST00414
+Personal Loan,PROD004,2024-10-21,46614.89,24,Debt Consolidation,Approved,,9.57,CUST00415
+Home Loan,PROD005,2024-03-20,68747.44,12,Education,Approved,,10.17,CUST00416
+Personal Loan,PROD001,2024-06-28,59128.28,24,Debt Consolidation,Approved,,9.75,CUST00417
+Personal Loan,PROD001,2025-03-13,21417.16,60,Education,Approved,,4.08,CUST00418
+Education Loan,PROD001,2025-01-03,5454.17,48,Home Improvement,Rejected,Bankruptcy History,8.15,CUST00419
+Business Loan,PROD002,2025-04-17,70622.7,36,Small Business,Approved,,4.0,CUST00420
+Business Loan,PROD005,2024-08-05,49586.05,60,Home Improvement,Approved,,8.47,CUST00421
+Business Loan,PROD005,2023-10-22,69933.0,12,Education,Approved,,7.67,CUST00422
+Education Loan,PROD005,2024-05-04,72920.56,24,Debt Consolidation,Rejected,Low Credit Score,5.26,CUST00423
+Home Loan,PROD004,2025-05-14,29495.0,36,Small Business,Rejected,Bankruptcy History,6.84,CUST00424
+Home Loan,PROD002,2024-11-25,31845.13,36,Small Business,Approved,,2.51,CUST00425
+Car Loan,PROD004,2023-12-02,56224.04,48,Small Business,Rejected,Unstable Employment,8.51,CUST00426
+Education Loan,PROD005,2024-01-23,57288.22,60,Car Purchase,Rejected,Incomplete Documents,5.26,CUST00427
+Business Loan,PROD004,2023-10-17,41560.26,60,Education,Rejected,Incomplete Documents,5.38,CUST00428
+Personal Loan,PROD005,2025-02-25,6122.55,48,Small Business,Approved,,7.0,CUST00429
+Personal Loan,PROD001,2024-01-24,13663.25,36,Debt Consolidation,Approved,,3.14,CUST00430
+Business Loan,PROD003,2023-10-21,57884.93,36,Home Improvement,Rejected,Low Credit Score,2.58,CUST00431
+Home Loan,PROD005,2023-11-09,72130.59,24,Small Business,Approved,,6.62,CUST00432
+Car Loan,PROD001,2024-03-07,73811.15,48,Car Purchase,Rejected,Unstable Employment,2.96,CUST00433
+Education Loan,PROD001,2024-09-22,45847.07,36,Home Improvement,Rejected,Low Credit Score,5.29,CUST00434
+Education Loan,PROD001,2023-10-23,64043.77,48,Home Improvement,Approved,,5.39,CUST00435
+Car Loan,PROD005,2024-07-18,23234.13,60,Education,Rejected,Incomplete Documents,9.36,CUST00436
+Car Loan,PROD004,2025-04-11,31225.72,36,Car Purchase,Approved,,2.63,CUST00437
+Education Loan,PROD002,2024-07-09,32320.24,12,Small Business,Rejected,Incomplete Documents,7.74,CUST00438
+Personal Loan,PROD003,2024-10-10,22805.17,36,Home Improvement,Rejected,Incomplete Documents,5.96,CUST00439
+Education Loan,PROD004,2024-06-04,8970.06,12,Home Improvement,Rejected,Low Credit Score,7.2,CUST00440
+Business Loan,PROD005,2023-06-10,57940.64,36,Car Purchase,Approved,,5.81,CUST00441
+Personal Loan,PROD005,2025-05-09,34416.28,60,Debt Consolidation,Approved,,3.21,CUST00442
+Car Loan,PROD001,2023-06-14,19135.86,36,Education,Approved,,3.74,CUST00443
+Education Loan,PROD003,2024-02-14,38718.14,60,Education,Rejected,Incomplete Documents,6.73,CUST00444
+Education Loan,PROD004,2023-09-15,71425.81,48,Home Improvement,Approved,,3.09,CUST00445
+Personal Loan,PROD004,2024-02-28,46990.76,36,Home Improvement,Rejected,High DTI,6.71,CUST00446
+Personal Loan,PROD003,2023-08-04,41136.32,48,Debt Consolidation,Approved,,9.49,CUST00447
+Education Loan,PROD004,2025-02-09,19387.69,36,Small Business,Approved,,2.83,CUST00448
+Home Loan,PROD005,2023-11-11,52059.01,48,Debt Consolidation,Approved,,5.26,CUST00449
+Personal Loan,PROD002,2024-04-03,6231.29,24,Small Business,Approved,,4.51,CUST00450
+Business Loan,PROD001,2023-10-21,26652.87,48,Car Purchase,Approved,,7.43,CUST00451
+Car Loan,PROD003,2024-06-05,17081.01,36,Education,Approved,,5.8,CUST00452
+Education Loan,PROD002,2025-05-17,38773.28,24,Debt Consolidation,Rejected,Bankruptcy History,6.17,CUST00453
+Personal Loan,PROD001,2025-03-25,73175.85,12,Debt Consolidation,Rejected,Bankruptcy History,2.86,CUST00454
+Business Loan,PROD005,2023-10-16,71567.77,36,Car Purchase,Approved,,7.16,CUST00455
+Home Loan,PROD001,2024-02-11,60700.94,48,Car Purchase,Approved,,5.94,CUST00456
+Car Loan,PROD001,2024-07-20,36768.65,24,Debt Consolidation,Rejected,High DTI,9.53,CUST00457
+Car Loan,PROD004,2025-04-09,67715.41,48,Education,Rejected,Bankruptcy History,4.41,CUST00458
+Personal Loan,PROD004,2024-04-10,18946.93,24,Debt Consolidation,Approved,,6.47,CUST00459
+Business Loan,PROD001,2023-09-01,68019.39,48,Home Improvement,Approved,,5.08,CUST00460
+Home Loan,PROD001,2024-06-29,50641.02,24,Home Improvement,Rejected,Unstable Employment,8.17,CUST00461
+Home Loan,PROD003,2023-10-22,59507.23,60,Small Business,Rejected,Unstable Employment,7.01,CUST00462
+Business Loan,PROD004,2023-08-17,33171.86,12,Home Improvement,Approved,,10.24,CUST00463
+Business Loan,PROD001,2023-07-22,47793.15,12,Small Business,Rejected,Bankruptcy History,8.33,CUST00464
+Business Loan,PROD004,2024-10-01,29148.8,48,Education,Approved,,7.86,CUST00465
+Business Loan,PROD002,2023-12-18,23045.84,24,Car Purchase,Rejected,Low Credit Score,4.46,CUST00466
+Business Loan,PROD005,2023-06-10,55030.55,36,Home Improvement,Rejected,Bankruptcy History,6.67,CUST00467
+Personal Loan,PROD004,2024-12-03,52829.36,24,Debt Consolidation,Rejected,Bankruptcy History,4.66,CUST00468
+Car Loan,PROD004,2024-08-01,46910.63,12,Car Purchase,Approved,,6.05,CUST00469
+Home Loan,PROD002,2023-12-31,46787.22,12,Small Business,Rejected,High DTI,4.83,CUST00470
+Personal Loan,PROD002,2024-12-17,55081.57,48,Debt Consolidation,Approved,,8.95,CUST00471
+Car Loan,PROD004,2024-06-25,23194.15,36,Small Business,Approved,,4.9,CUST00472
+Education Loan,PROD005,2024-05-29,51280.8,12,Small Business,Rejected,Bankruptcy History,8.06,CUST00473
+Personal Loan,PROD002,2023-12-19,54286.98,36,Small Business,Rejected,Unstable Employment,7.96,CUST00474
+Car Loan,PROD003,2023-09-30,32496.54,24,Small Business,Rejected,Low Credit Score,5.66,CUST00475
+Car Loan,PROD005,2024-04-17,22837.23,36,Debt Consolidation,Approved,,3.75,CUST00476
+Personal Loan,PROD003,2023-08-29,53480.42,12,Education,Rejected,Low Credit Score,3.25,CUST00477
+Personal Loan,PROD003,2024-02-26,70645.46,36,Debt Consolidation,Approved,,9.11,CUST00478
+Education Loan,PROD003,2024-10-04,65025.4,24,Home Improvement,Rejected,High DTI,9.75,CUST00479
+Home Loan,PROD002,2025-01-30,33602.35,24,Car Purchase,Approved,,9.27,CUST00480
+Education Loan,PROD003,2024-01-30,16064.29,60,Small Business,Approved,,2.67,CUST00481
+Education Loan,PROD005,2024-05-30,59942.4,12,Education,Approved,,3.1,CUST00482
+Education Loan,PROD004,2023-08-31,74196.73,24,Car Purchase,Approved,,7.9,CUST00483
+Personal Loan,PROD002,2025-02-13,57741.48,48,Car Purchase,Approved,,4.47,CUST00484
+Home Loan,PROD002,2023-10-12,52170.58,60,Small Business,Approved,,2.85,CUST00485
+Education Loan,PROD002,2023-07-25,63647.8,12,Debt Consolidation,Rejected,Bankruptcy History,3.86,CUST00486
+Home Loan,PROD005,2025-01-18,53815.06,12,Home Improvement,Approved,,4.3,CUST00487
+Business Loan,PROD004,2024-12-19,9791.72,24,Home Improvement,Approved,,6.35,CUST00488
+Personal Loan,PROD003,2024-03-19,16850.03,24,Education,Rejected,Low Credit Score,8.34,CUST00489
+Business Loan,PROD002,2025-05-31,21629.61,36,Small Business,Approved,,5.24,CUST00490
+Business Loan,PROD002,2023-09-07,44720.75,36,Small Business,Approved,,4.78,CUST00491
+Car Loan,PROD003,2024-06-02,31459.17,24,Debt Consolidation,Approved,,9.02,CUST00492
+Home Loan,PROD001,2024-03-18,17544.69,12,Home Improvement,Rejected,Incomplete Documents,3.16,CUST00493
+Education Loan,PROD004,2024-05-20,27985.04,48,Debt Consolidation,Rejected,Incomplete Documents,5.9,CUST00494
+Business Loan,PROD001,2024-10-03,42986.15,48,Car Purchase,Rejected,Unstable Employment,5.48,CUST00495
+Personal Loan,PROD003,2023-10-28,60293.82,36,Debt Consolidation,Approved,,2.81,CUST00496
+Personal Loan,PROD003,2023-12-06,35223.73,48,Home Improvement,Approved,,5.56,CUST00497
+Business Loan,PROD002,2025-05-02,50330.49,60,Home Improvement,Rejected,Unstable Employment,10.23,CUST00498
+Education Loan,PROD005,2024-12-03,40726.28,60,Car Purchase,Approved,,10.4,CUST00499
+Education Loan,PROD005,2023-10-22,26157.46,12,Debt Consolidation,Rejected,Low Credit Score,2.75,CUST00500
+Car Loan,PROD005,2023-06-27,16596.42,12,Car Purchase,Approved,,5.66,CUST00501
+Business Loan,PROD004,2023-06-21,27143.37,60,Small Business,Approved,,3.28,CUST00502
+Personal Loan,PROD005,2024-04-23,35286.21,48,Small Business,Rejected,Incomplete Documents,5.2,CUST00503
+Business Loan,PROD004,2023-08-14,13583.35,60,Small Business,Approved,,4.87,CUST00504
+Business Loan,PROD002,2023-08-28,67050.52,60,Debt Consolidation,Rejected,Low Credit Score,4.92,CUST00505
+Personal Loan,PROD004,2025-04-04,54976.88,60,Education,Rejected,High DTI,7.4,CUST00506
+Home Loan,PROD003,2024-10-15,34902.68,48,Debt Consolidation,Rejected,High DTI,4.41,CUST00507
+Education Loan,PROD002,2024-11-07,30831.03,12,Home Improvement,Approved,,7.24,CUST00508
+Business Loan,PROD005,2024-09-19,29552.73,48,Debt Consolidation,Approved,,4.22,CUST00509
+Car Loan,PROD003,2025-02-03,13152.39,24,Car Purchase,Approved,,9.54,CUST00510
+Business Loan,PROD002,2023-11-22,35821.91,60,Car Purchase,Rejected,Bankruptcy History,7.5,CUST00511
+Business Loan,PROD002,2024-05-04,39328.73,24,Small Business,Approved,,9.48,CUST00512
+Home Loan,PROD002,2024-08-05,43285.44,12,Small Business,Approved,,6.35,CUST00513
+Education Loan,PROD001,2024-09-17,69722.07,48,Small Business,Rejected,High DTI,8.26,CUST00514
+Car Loan,PROD002,2024-02-25,12808.49,60,Small Business,Approved,,3.92,CUST00515
+Home Loan,PROD005,2025-05-27,60098.6,60,Car Purchase,Approved,,9.19,CUST00516
+Car Loan,PROD002,2023-09-30,43163.36,12,Home Improvement,Rejected,Low Credit Score,6.94,CUST00517
+Home Loan,PROD002,2024-09-20,49235.31,24,Car Purchase,Approved,,6.01,CUST00518
+Home Loan,PROD001,2024-11-22,52613.94,12,Small Business,Approved,,3.37,CUST00519
+Education Loan,PROD004,2024-11-01,72289.55,48,Education,Approved,,8.5,CUST00520
+Home Loan,PROD001,2025-02-10,49182.19,12,Small Business,Approved,,5.03,CUST00521
+Business Loan,PROD005,2024-05-31,16266.88,48,Education,Approved,,5.77,CUST00522
+Home Loan,PROD001,2025-01-26,51310.37,60,Home Improvement,Approved,,7.57,CUST00523
+Personal Loan,PROD002,2024-01-08,31784.88,36,Home Improvement,Rejected,Bankruptcy History,7.41,CUST00524
+Personal Loan,PROD001,2025-02-20,61962.38,24,Small Business,Approved,,2.71,CUST00525
+Personal Loan,PROD003,2025-01-27,36543.47,24,Small Business,Rejected,Low Credit Score,8.57,CUST00526
+Business Loan,PROD001,2024-07-25,43230.11,48,Education,Rejected,Unstable Employment,7.71,CUST00527
+Business Loan,PROD002,2023-06-09,41167.35,24,Debt Consolidation,Approved,,10.43,CUST00528
+Personal Loan,PROD004,2023-10-11,8823.51,60,Home Improvement,Rejected,Unstable Employment,6.43,CUST00529
+Home Loan,PROD001,2025-04-03,11399.16,24,Home Improvement,Approved,,3.78,CUST00530
+Education Loan,PROD004,2024-12-10,31812.68,24,Debt Consolidation,Rejected,Low Credit Score,3.74,CUST00531
+Personal Loan,PROD003,2023-10-30,72458.1,60,Education,Approved,,10.07,CUST00532
+Education Loan,PROD001,2023-11-28,28527.68,36,Home Improvement,Rejected,Low Credit Score,7.62,CUST00533
+Education Loan,PROD004,2024-10-07,42362.73,48,Education,Approved,,9.02,CUST00534
+Personal Loan,PROD001,2025-03-15,48921.19,12,Home Improvement,Approved,,2.5,CUST00535
+Education Loan,PROD003,2024-03-06,58422.21,36,Home Improvement,Rejected,Low Credit Score,8.47,CUST00536
+Car Loan,PROD003,2023-10-04,40680.59,12,Education,Approved,,9.72,CUST00537
+Business Loan,PROD003,2023-12-05,68591.23,12,Small Business,Rejected,Bankruptcy History,6.69,CUST00538
+Business Loan,PROD003,2024-02-04,47559.18,60,Home Improvement,Rejected,Bankruptcy History,10.47,CUST00539
+Business Loan,PROD005,2025-04-03,25917.42,12,Debt Consolidation,Approved,,5.1,CUST00540
+Business Loan,PROD002,2024-07-07,17794.17,48,Education,Approved,,9.67,CUST00541
+Business Loan,PROD002,2024-10-03,57114.19,36,Small Business,Approved,,3.35,CUST00542
+Car Loan,PROD004,2023-12-16,73723.71,60,Small Business,Approved,,8.35,CUST00543
+Business Loan,PROD005,2024-11-12,64536.55,48,Education,Rejected,High DTI,2.89,CUST00544
+Business Loan,PROD004,2024-03-18,40347.26,12,Small Business,Approved,,8.09,CUST00545
+Car Loan,PROD005,2024-09-08,43006.26,48,Small Business,Approved,,7.83,CUST00546
+Business Loan,PROD005,2024-05-03,62251.18,60,Home Improvement,Approved,,5.49,CUST00547
+Education Loan,PROD005,2023-12-01,64406.81,48,Small Business,Approved,,3.8,CUST00548
+Home Loan,PROD003,2025-02-13,23962.02,12,Debt Consolidation,Approved,,2.85,CUST00549
+Business Loan,PROD004,2024-08-08,30509.88,24,Debt Consolidation,Approved,,5.54,CUST00550
+Education Loan,PROD001,2023-11-15,61368.94,60,Education,Approved,,7.73,CUST00551
+Education Loan,PROD001,2024-10-31,35570.58,60,Car Purchase,Approved,,7.72,CUST00552
+Car Loan,PROD001,2024-10-22,8694.83,12,Education,Rejected,High DTI,3.94,CUST00553
+Personal Loan,PROD004,2024-07-06,48886.35,60,Small Business,Approved,,7.63,CUST00554
+Business Loan,PROD002,2024-01-27,59189.43,48,Debt Consolidation,Rejected,Low Credit Score,5.72,CUST00555
+Home Loan,PROD005,2024-03-31,55578.79,12,Small Business,Approved,,7.97,CUST00556
+Personal Loan,PROD002,2023-07-20,72437.54,12,Debt Consolidation,Rejected,Bankruptcy History,4.22,CUST00557
+Personal Loan,PROD005,2024-05-16,43617.57,36,Home Improvement,Approved,,7.31,CUST00558
+Education Loan,PROD004,2024-01-12,74905.35,48,Debt Consolidation,Approved,,4.11,CUST00559
+Home Loan,PROD002,2024-08-27,41625.26,48,Education,Rejected,Unstable Employment,5.27,CUST00560
+Business Loan,PROD002,2023-07-26,41812.51,12,Home Improvement,Approved,,4.36,CUST00561
+Business Loan,PROD005,2024-04-02,8332.87,24,Debt Consolidation,Approved,,7.08,CUST00562
+Home Loan,PROD005,2025-01-02,28509.8,60,Car Purchase,Rejected,Bankruptcy History,3.96,CUST00563
+Education Loan,PROD003,2024-09-18,27675.49,24,Car Purchase,Approved,,2.89,CUST00564
+Car Loan,PROD005,2024-07-11,71530.96,48,Debt Consolidation,Approved,,7.15,CUST00565
+Business Loan,PROD005,2025-03-23,62033.81,12,Home Improvement,Rejected,Bankruptcy History,5.88,CUST00566
+Personal Loan,PROD003,2023-09-06,68232.03,36,Car Purchase,Approved,,6.37,CUST00567
+Home Loan,PROD005,2024-02-03,45176.17,36,Debt Consolidation,Approved,,6.43,CUST00568
+Personal Loan,PROD004,2024-02-10,56329.48,12,Debt Consolidation,Approved,,7.03,CUST00569
+Education Loan,PROD005,2024-02-08,24011.92,24,Home Improvement,Approved,,3.66,CUST00570
+Business Loan,PROD002,2024-05-05,47428.71,24,Education,Rejected,Unstable Employment,6.41,CUST00571
+Home Loan,PROD005,2023-08-20,11718.3,12,Home Improvement,Approved,,5.66,CUST00572
+Home Loan,PROD004,2023-10-30,41034.35,24,Debt Consolidation,Approved,,9.12,CUST00573
+Education Loan,PROD003,2025-02-05,10327.07,12,Education,Approved,,5.29,CUST00574
+Car Loan,PROD002,2024-09-16,62585.93,24,Debt Consolidation,Approved,,7.69,CUST00575
+Education Loan,PROD002,2024-04-29,25297.08,60,Car Purchase,Approved,,9.26,CUST00576
+Business Loan,PROD005,2025-01-06,39530.55,36,Debt Consolidation,Approved,,6.49,CUST00577
+Home Loan,PROD001,2024-11-25,73361.11,12,Education,Approved,,10.08,CUST00578
+Business Loan,PROD005,2023-07-11,30097.29,24,Debt Consolidation,Rejected,High DTI,3.62,CUST00579
+Education Loan,PROD002,2025-02-07,27796.67,12,Car Purchase,Approved,,2.74,CUST00580
+Education Loan,PROD001,2024-11-04,6453.75,48,Small Business,Approved,,5.66,CUST00581
+Personal Loan,PROD001,2024-01-29,70871.39,48,Home Improvement,Rejected,Low Credit Score,9.47,CUST00582
+Personal Loan,PROD005,2024-06-02,40801.0,12,Home Improvement,Rejected,Low Credit Score,7.02,CUST00583
+Business Loan,PROD003,2024-10-15,5415.34,12,Car Purchase,Rejected,Incomplete Documents,4.22,CUST00584
+Education Loan,PROD001,2024-02-08,6734.19,12,Debt Consolidation,Approved,,8.54,CUST00585
+Car Loan,PROD004,2025-05-09,15195.21,12,Home Improvement,Approved,,9.45,CUST00586
+Personal Loan,PROD002,2025-01-15,50032.7,48,Small Business,Rejected,Low Credit Score,4.34,CUST00587
+Car Loan,PROD002,2023-08-31,16040.42,12,Home Improvement,Approved,,7.52,CUST00588
+Education Loan,PROD001,2025-03-26,68058.59,48,Small Business,Approved,,8.25,CUST00589
+Personal Loan,PROD001,2024-10-06,29398.27,12,Education,Approved,,7.2,CUST00590
+Personal Loan,PROD001,2023-06-07,26753.32,60,Debt Consolidation,Rejected,Incomplete Documents,10.49,CUST00591
+Business Loan,PROD003,2024-01-13,57418.74,36,Car Purchase,Approved,,7.42,CUST00592
+Car Loan,PROD005,2023-10-23,34628.14,60,Education,Rejected,Bankruptcy History,7.45,CUST00593
+Business Loan,PROD005,2023-12-27,28913.12,60,Car Purchase,Approved,,2.73,CUST00594
+Education Loan,PROD003,2025-02-06,32656.2,24,Small Business,Approved,,9.94,CUST00595
+Personal Loan,PROD003,2023-09-16,48841.08,48,Home Improvement,Approved,,3.17,CUST00596
+Education Loan,PROD001,2024-02-05,66949.55,60,Car Purchase,Rejected,Incomplete Documents,4.65,CUST00597
+Education Loan,PROD002,2024-08-07,22063.86,36,Small Business,Approved,,4.88,CUST00598
+Home Loan,PROD002,2023-12-20,45404.16,12,Home Improvement,Approved,,6.86,CUST00599
+Personal Loan,PROD003,2024-04-02,39398.96,12,Car Purchase,Approved,,8.24,CUST00600
+Personal Loan,PROD005,2024-03-18,27157.64,60,Education,Approved,,8.76,CUST00601
+Car Loan,PROD002,2024-07-08,17272.52,12,Education,Approved,,8.76,CUST00602
+Personal Loan,PROD002,2024-09-04,51466.71,36,Debt Consolidation,Rejected,Bankruptcy History,7.97,CUST00603
+Business Loan,PROD002,2024-08-26,38708.74,36,Education,Rejected,High DTI,7.84,CUST00604
+Business Loan,PROD001,2023-11-11,10585.79,48,Debt Consolidation,Approved,,9.31,CUST00605
+Business Loan,PROD004,2023-11-04,8888.31,12,Education,Approved,,3.69,CUST00606
+Education Loan,PROD002,2023-12-08,45375.28,60,Small Business,Approved,,8.42,CUST00607
+Car Loan,PROD003,2025-02-06,10337.61,36,Small Business,Approved,,9.87,CUST00608
+Business Loan,PROD002,2025-02-11,73152.54,60,Car Purchase,Rejected,Unstable Employment,7.35,CUST00609
+Personal Loan,PROD002,2024-02-20,38687.04,48,Debt Consolidation,Approved,,8.43,CUST00610
+Education Loan,PROD002,2024-06-06,27985.01,60,Home Improvement,Approved,,6.45,CUST00611
+Personal Loan,PROD003,2023-08-12,69130.57,12,Education,Approved,,10.15,CUST00612
+Education Loan,PROD003,2024-05-14,69894.84,12,Debt Consolidation,Rejected,Bankruptcy History,4.6,CUST00613
+Education Loan,PROD005,2025-05-20,21272.83,36,Debt Consolidation,Approved,,4.88,CUST00614
+Home Loan,PROD003,2024-05-03,35891.78,48,Car Purchase,Approved,,5.01,CUST00615
+Car Loan,PROD005,2024-07-30,31194.9,24,Home Improvement,Approved,,7.47,CUST00616
+Business Loan,PROD001,2025-01-30,58376.8,60,Debt Consolidation,Rejected,Unstable Employment,8.38,CUST00617
+Home Loan,PROD001,2024-12-06,62009.65,48,Home Improvement,Rejected,Unstable Employment,2.76,CUST00618
+Business Loan,PROD001,2024-03-07,8341.37,24,Home Improvement,Rejected,Low Credit Score,8.82,CUST00619
+Home Loan,PROD004,2023-10-29,42315.52,60,Education,Approved,,7.13,CUST00620
+Home Loan,PROD005,2024-06-30,8681.08,12,Car Purchase,Approved,,4.54,CUST00621
+Personal Loan,PROD003,2025-03-03,49684.8,48,Home Improvement,Rejected,Bankruptcy History,9.37,CUST00622
+Car Loan,PROD002,2025-04-13,69188.84,12,Education,Approved,,6.5,CUST00623
+Business Loan,PROD003,2025-04-11,43183.2,24,Debt Consolidation,Rejected,Unstable Employment,9.16,CUST00624
+Home Loan,PROD002,2023-12-29,42633.72,12,Home Improvement,Approved,,6.63,CUST00625
+Car Loan,PROD002,2024-09-02,68355.88,48,Debt Consolidation,Approved,,8.82,CUST00626
+Business Loan,PROD003,2024-09-22,68635.08,12,Car Purchase,Rejected,Low Credit Score,4.25,CUST00627
+Education Loan,PROD001,2025-02-08,41706.28,12,Debt Consolidation,Approved,,9.24,CUST00628
+Home Loan,PROD003,2023-12-28,12780.35,24,Debt Consolidation,Rejected,High DTI,8.86,CUST00629
+Business Loan,PROD003,2023-06-19,17808.14,48,Debt Consolidation,Rejected,Incomplete Documents,8.96,CUST00630
+Home Loan,PROD004,2024-07-12,47840.07,36,Home Improvement,Approved,,4.05,CUST00631
+Education Loan,PROD001,2024-12-24,38134.79,48,Car Purchase,Rejected,High DTI,7.96,CUST00632
+Education Loan,PROD005,2025-04-01,49369.7,60,Home Improvement,Approved,,5.92,CUST00633
+Personal Loan,PROD005,2023-12-28,67955.66,36,Home Improvement,Approved,,6.65,CUST00634
+Car Loan,PROD001,2024-12-28,40410.71,12,Home Improvement,Approved,,3.0,CUST00635
+Education Loan,PROD003,2024-05-18,69548.43,60,Debt Consolidation,Rejected,High DTI,3.92,CUST00636
+Home Loan,PROD002,2024-05-27,41984.13,60,Home Improvement,Rejected,Low Credit Score,8.93,CUST00637
+Personal Loan,PROD003,2023-09-24,20081.73,24,Home Improvement,Approved,,6.72,CUST00638
+Car Loan,PROD004,2024-05-31,21847.94,12,Small Business,Approved,,8.58,CUST00639
+Business Loan,PROD003,2024-09-21,44503.88,12,Small Business,Rejected,Low Credit Score,9.35,CUST00640
+Personal Loan,PROD005,2025-05-31,67619.06,12,Debt Consolidation,Rejected,High DTI,7.69,CUST00641
+Business Loan,PROD005,2024-05-18,55777.39,24,Small Business,Approved,,6.89,CUST00642
+Personal Loan,PROD003,2023-09-29,31910.01,24,Debt Consolidation,Approved,,7.68,CUST00643
+Business Loan,PROD003,2024-07-03,68580.2,24,Home Improvement,Approved,,5.83,CUST00644
+Personal Loan,PROD004,2023-06-20,27008.7,12,Home Improvement,Rejected,Low Credit Score,5.61,CUST00645
+Education Loan,PROD004,2024-09-26,35477.83,60,Small Business,Approved,,3.09,CUST00646
+Home Loan,PROD001,2025-04-09,39890.93,48,Small Business,Approved,,6.45,CUST00647
+Education Loan,PROD005,2023-09-17,46191.07,12,Home Improvement,Approved,,5.4,CUST00648
+Business Loan,PROD004,2024-06-22,47917.53,48,Debt Consolidation,Rejected,Bankruptcy History,9.53,CUST00649
+Home Loan,PROD002,2024-05-21,71882.97,48,Small Business,Approved,,7.17,CUST00650
+Personal Loan,PROD002,2024-12-31,7981.37,24,Small Business,Rejected,High DTI,10.25,CUST00651
+Personal Loan,PROD003,2023-07-29,54410.34,60,Car Purchase,Rejected,Unstable Employment,5.19,CUST00652
+Home Loan,PROD001,2024-01-18,15301.04,48,Education,Rejected,Bankruptcy History,3.65,CUST00653
+Education Loan,PROD002,2023-06-02,16742.11,36,Home Improvement,Rejected,Unstable Employment,2.86,CUST00654
+Car Loan,PROD002,2023-06-20,68150.79,36,Home Improvement,Approved,,6.83,CUST00655
+Home Loan,PROD004,2025-03-30,53997.16,24,Education,Approved,,9.12,CUST00656
+Personal Loan,PROD003,2024-11-13,60407.87,24,Education,Approved,,9.56,CUST00657
+Car Loan,PROD003,2024-01-09,72707.82,12,Education,Approved,,6.01,CUST00658
+Business Loan,PROD003,2025-02-07,71523.48,24,Small Business,Approved,,8.29,CUST00659
+Home Loan,PROD002,2024-03-20,9946.77,60,Car Purchase,Approved,,7.95,CUST00660
+Car Loan,PROD002,2025-05-18,53070.17,36,Debt Consolidation,Approved,,9.75,CUST00661
+Home Loan,PROD001,2023-12-18,31105.25,12,Small Business,Rejected,Low Credit Score,7.18,CUST00662
+Home Loan,PROD004,2023-07-12,5853.13,12,Debt Consolidation,Approved,,5.16,CUST00663
+Car Loan,PROD001,2024-07-15,9357.06,60,Education,Rejected,Incomplete Documents,6.67,CUST00664
+Business Loan,PROD003,2024-06-22,62221.34,24,Home Improvement,Approved,,4.15,CUST00665
+Car Loan,PROD001,2024-09-11,41920.87,12,Education,Approved,,4.13,CUST00666
+Education Loan,PROD004,2024-07-26,13448.19,24,Car Purchase,Approved,,6.59,CUST00667
+Business Loan,PROD001,2023-08-18,10540.4,36,Education,Rejected,Unstable Employment,7.2,CUST00668
+Personal Loan,PROD005,2024-06-04,7193.62,60,Education,Rejected,Incomplete Documents,3.35,CUST00669
+Personal Loan,PROD005,2023-12-02,43499.82,24,Home Improvement,Approved,,7.23,CUST00670
+Car Loan,PROD005,2024-05-02,7029.09,60,Debt Consolidation,Rejected,Bankruptcy History,7.09,CUST00671
+Car Loan,PROD004,2023-08-26,63695.18,12,Car Purchase,Rejected,High DTI,8.28,CUST00672
+Education Loan,PROD002,2024-07-01,14182.96,12,Car Purchase,Approved,,7.24,CUST00673
+Education Loan,PROD003,2024-07-13,52057.68,36,Small Business,Approved,,2.8,CUST00674
+Car Loan,PROD001,2024-02-18,64874.34,36,Education,Approved,,9.75,CUST00675
+Education Loan,PROD001,2024-05-16,64531.66,60,Car Purchase,Approved,,9.1,CUST00676
+Home Loan,PROD004,2025-01-02,57147.56,12,Home Improvement,Approved,,7.57,CUST00677
+Personal Loan,PROD002,2024-02-23,52503.89,24,Small Business,Approved,,8.95,CUST00678
+Home Loan,PROD002,2023-09-25,51374.89,24,Car Purchase,Rejected,Bankruptcy History,5.12,CUST00679
+Home Loan,PROD005,2023-12-29,31317.28,24,Debt Consolidation,Rejected,Low Credit Score,9.68,CUST00680
+Business Loan,PROD001,2025-04-20,6198.55,60,Small Business,Approved,,8.09,CUST00681
+Education Loan,PROD001,2024-03-10,71834.43,36,Home Improvement,Rejected,Incomplete Documents,8.15,CUST00682
+Education Loan,PROD001,2023-10-05,74573.84,12,Small Business,Approved,,8.0,CUST00683
+Education Loan,PROD002,2025-05-10,7405.41,60,Debt Consolidation,Approved,,9.12,CUST00684
+Personal Loan,PROD005,2023-08-29,24924.09,60,Home Improvement,Approved,,6.07,CUST00685
+Business Loan,PROD003,2024-03-31,26846.43,60,Education,Approved,,4.65,CUST00686
+Education Loan,PROD002,2024-01-15,35198.4,12,Education,Approved,,5.53,CUST00687
+Business Loan,PROD005,2025-04-30,49333.7,12,Debt Consolidation,Rejected,Low Credit Score,9.01,CUST00688
+Car Loan,PROD004,2023-10-08,25796.21,60,Small Business,Approved,,4.21,CUST00689
+Car Loan,PROD001,2024-10-17,51682.67,60,Small Business,Rejected,Bankruptcy History,7.86,CUST00690
+Car Loan,PROD005,2023-06-28,68079.19,60,Car Purchase,Rejected,Bankruptcy History,2.63,CUST00691
+Business Loan,PROD003,2024-11-21,64712.85,36,Debt Consolidation,Approved,,6.67,CUST00692
+Home Loan,PROD001,2023-08-13,48491.15,60,Car Purchase,Approved,,3.23,CUST00693
+Car Loan,PROD004,2023-08-27,35283.05,24,Home Improvement,Rejected,Low Credit Score,4.32,CUST00694
+Car Loan,PROD005,2024-12-24,22795.75,24,Debt Consolidation,Rejected,Incomplete Documents,6.53,CUST00695
+Business Loan,PROD002,2024-07-07,61871.92,24,Car Purchase,Rejected,High DTI,8.45,CUST00696
+Home Loan,PROD003,2023-07-11,46370.0,12,Debt Consolidation,Approved,,6.82,CUST00697
+Personal Loan,PROD004,2024-07-13,34911.42,36,Car Purchase,Rejected,High DTI,10.28,CUST00698
+Business Loan,PROD001,2023-10-11,44213.48,12,Debt Consolidation,Rejected,Bankruptcy History,4.53,CUST00699
+Business Loan,PROD005,2025-01-22,21106.36,24,Home Improvement,Approved,,7.39,CUST00700
+Car Loan,PROD001,2024-11-16,41597.93,24,Home Improvement,Approved,,2.56,CUST00701
+Car Loan,PROD001,2025-03-09,63104.58,36,Car Purchase,Rejected,High DTI,8.13,CUST00702
+Car Loan,PROD002,2024-10-22,51328.05,48,Education,Approved,,3.05,CUST00703
+Personal Loan,PROD002,2024-09-13,30343.91,12,Car Purchase,Approved,,9.98,CUST00704
+Personal Loan,PROD002,2024-02-10,65381.25,12,Car Purchase,Approved,,4.78,CUST00705
+Business Loan,PROD001,2023-12-14,15994.12,48,Debt Consolidation,Approved,,6.09,CUST00706
+Home Loan,PROD004,2024-10-03,29908.13,36,Education,Approved,,7.96,CUST00707
+Car Loan,PROD001,2024-08-11,72650.44,12,Debt Consolidation,Approved,,5.4,CUST00708
+Business Loan,PROD002,2025-05-31,9355.69,48,Education,Rejected,Bankruptcy History,9.68,CUST00709
+Personal Loan,PROD004,2024-10-18,7656.48,60,Home Improvement,Approved,,10.12,CUST00710
+Business Loan,PROD005,2024-02-04,51520.56,24,Home Improvement,Rejected,High DTI,10.03,CUST00711
+Home Loan,PROD002,2023-09-13,18976.18,60,Home Improvement,Approved,,2.83,CUST00712
+Education Loan,PROD001,2023-08-06,39174.7,48,Debt Consolidation,Approved,,6.1,CUST00713
+Education Loan,PROD005,2024-12-21,28204.46,12,Small Business,Rejected,High DTI,10.16,CUST00714
+Business Loan,PROD002,2025-05-13,62580.86,12,Debt Consolidation,Rejected,Low Credit Score,7.79,CUST00715
+Car Loan,PROD005,2023-08-04,16400.08,36,Home Improvement,Approved,,8.37,CUST00716
+Business Loan,PROD004,2024-10-19,55890.87,48,Car Purchase,Rejected,High DTI,5.9,CUST00717
+Business Loan,PROD001,2023-09-16,69735.01,24,Education,Rejected,Low Credit Score,3.84,CUST00718
+Education Loan,PROD001,2023-08-28,23713.63,60,Home Improvement,Approved,,3.01,CUST00719
+Personal Loan,PROD004,2025-02-17,60681.57,60,Education,Rejected,Unstable Employment,7.47,CUST00720
+Education Loan,PROD004,2024-11-21,27045.82,12,Education,Approved,,3.81,CUST00721
+Car Loan,PROD004,2024-03-11,7810.34,24,Small Business,Rejected,Low Credit Score,3.83,CUST00722
+Business Loan,PROD004,2024-08-22,36729.93,36,Home Improvement,Rejected,Unstable Employment,4.48,CUST00723
+Personal Loan,PROD005,2025-04-20,23128.75,36,Debt Consolidation,Approved,,9.5,CUST00724
+Personal Loan,PROD001,2024-01-29,41059.64,48,Education,Rejected,Bankruptcy History,8.33,CUST00725
+Car Loan,PROD003,2025-02-01,7499.77,60,Car Purchase,Approved,,5.42,CUST00726
+Car Loan,PROD005,2024-04-25,38541.85,48,Home Improvement,Rejected,Unstable Employment,3.99,CUST00727
+Personal Loan,PROD005,2023-12-10,13413.41,48,Education,Rejected,High DTI,9.46,CUST00728
+Car Loan,PROD002,2023-10-26,70760.21,24,Education,Approved,,3.13,CUST00729
+Car Loan,PROD004,2023-12-11,29431.31,12,Debt Consolidation,Rejected,Low Credit Score,10.17,CUST00730
+Car Loan,PROD003,2024-08-11,10821.32,24,Car Purchase,Rejected,Bankruptcy History,7.65,CUST00731
+Personal Loan,PROD005,2023-08-24,73055.5,36,Debt Consolidation,Approved,,10.33,CUST00732
+Car Loan,PROD001,2025-01-04,37985.63,60,Home Improvement,Rejected,Incomplete Documents,3.8,CUST00733
+Business Loan,PROD004,2025-05-15,19145.9,60,Small Business,Approved,,9.62,CUST00734
+Home Loan,PROD005,2024-12-31,68817.81,48,Car Purchase,Approved,,7.36,CUST00735
+Car Loan,PROD003,2024-06-03,58632.35,12,Small Business,Rejected,Incomplete Documents,8.42,CUST00736
+Education Loan,PROD003,2024-08-17,51327.51,24,Car Purchase,Approved,,9.12,CUST00737
+Business Loan,PROD003,2024-11-03,52978.46,24,Car Purchase,Approved,,6.77,CUST00738
+Personal Loan,PROD004,2024-07-21,21586.95,24,Home Improvement,Rejected,Unstable Employment,8.45,CUST00739
+Personal Loan,PROD005,2023-12-15,38140.65,24,Car Purchase,Rejected,High DTI,4.86,CUST00740
+Personal Loan,PROD002,2023-09-24,61136.24,12,Car Purchase,Approved,,8.07,CUST00741
+Home Loan,PROD001,2024-05-07,70613.77,36,Education,Rejected,Incomplete Documents,3.82,CUST00742
+Education Loan,PROD001,2024-04-23,50443.25,36,Debt Consolidation,Approved,,4.45,CUST00743
+Personal Loan,PROD004,2025-05-07,68250.81,48,Small Business,Approved,,3.3,CUST00744
+Personal Loan,PROD004,2024-09-04,50931.33,36,Education,Rejected,Bankruptcy History,8.83,CUST00745
+Business Loan,PROD003,2025-05-06,29844.25,36,Car Purchase,Approved,,10.13,CUST00746
+Personal Loan,PROD002,2023-07-06,64551.15,48,Debt Consolidation,Approved,,4.86,CUST00747
+Business Loan,PROD004,2023-08-19,5527.88,36,Education,Approved,,4.87,CUST00748
+Education Loan,PROD005,2024-05-29,24691.73,60,Home Improvement,Rejected,Bankruptcy History,9.62,CUST00749
+Education Loan,PROD002,2024-05-29,72698.48,36,Car Purchase,Approved,,3.06,CUST00750
+Home Loan,PROD002,2023-06-22,37990.64,36,Debt Consolidation,Rejected,Unstable Employment,6.89,CUST00751
+Home Loan,PROD005,2025-04-20,11503.82,12,Small Business,Approved,,5.52,CUST00752
+Personal Loan,PROD005,2024-03-19,27195.77,36,Home Improvement,Rejected,Incomplete Documents,6.79,CUST00753
+Personal Loan,PROD002,2024-09-26,51283.36,48,Car Purchase,Rejected,Incomplete Documents,8.13,CUST00754
+Personal Loan,PROD003,2024-10-13,14572.85,60,Education,Approved,,9.0,CUST00755
+Education Loan,PROD003,2023-07-12,52497.94,48,Car Purchase,Approved,,9.61,CUST00756
+Home Loan,PROD002,2024-11-19,36453.52,12,Debt Consolidation,Rejected,Bankruptcy History,9.65,CUST00757
+Car Loan,PROD002,2025-02-11,65604.19,36,Home Improvement,Rejected,Incomplete Documents,6.01,CUST00758
+Personal Loan,PROD002,2024-02-13,31680.03,48,Debt Consolidation,Rejected,Low Credit Score,9.96,CUST00759
+Home Loan,PROD003,2025-05-29,55061.53,60,Small Business,Approved,,9.93,CUST00760
+Car Loan,PROD002,2023-11-26,60788.23,24,Home Improvement,Rejected,Bankruptcy History,7.37,CUST00761
+Personal Loan,PROD003,2025-05-07,13109.69,36,Car Purchase,Approved,,4.83,CUST00762
+Home Loan,PROD004,2023-11-01,72818.97,60,Car Purchase,Rejected,Bankruptcy History,5.06,CUST00763
+Education Loan,PROD002,2024-05-30,11527.84,12,Home Improvement,Approved,,8.16,CUST00764
+Home Loan,PROD005,2023-07-19,56380.3,12,Education,Approved,,4.78,CUST00765
+Business Loan,PROD003,2024-11-15,25837.04,24,Car Purchase,Approved,,6.25,CUST00766
+Home Loan,PROD001,2023-09-05,6525.23,36,Education,Rejected,Incomplete Documents,8.81,CUST00767
+Home Loan,PROD005,2024-09-09,27196.22,36,Car Purchase,Rejected,Unstable Employment,9.33,CUST00768
+Car Loan,PROD003,2024-10-06,61184.13,36,Car Purchase,Approved,,7.79,CUST00769
+Education Loan,PROD005,2023-12-02,27741.24,48,Debt Consolidation,Approved,,6.63,CUST00770
+Personal Loan,PROD004,2024-03-22,36138.05,12,Home Improvement,Approved,,5.21,CUST00771
+Education Loan,PROD002,2023-11-25,64369.54,24,Small Business,Rejected,Low Credit Score,6.37,CUST00772
+Education Loan,PROD003,2024-09-12,63290.62,24,Education,Rejected,High DTI,3.34,CUST00773
+Education Loan,PROD004,2025-01-17,14871.74,24,Education,Rejected,Incomplete Documents,10.32,CUST00774
+Education Loan,PROD003,2024-12-26,46143.79,48,Car Purchase,Approved,,6.58,CUST00775
+Car Loan,PROD004,2024-09-18,41620.92,12,Debt Consolidation,Rejected,Low Credit Score,4.22,CUST00776
+Home Loan,PROD001,2024-07-12,55309.28,36,Car Purchase,Approved,,3.18,CUST00777
+Education Loan,PROD005,2025-02-17,45132.66,12,Debt Consolidation,Rejected,Low Credit Score,7.07,CUST00778
+Personal Loan,PROD005,2025-02-03,68993.19,12,Home Improvement,Approved,,6.71,CUST00779
+Home Loan,PROD002,2024-11-19,14594.39,48,Car Purchase,Approved,,7.08,CUST00780
+Car Loan,PROD001,2024-04-12,11392.94,36,Car Purchase,Approved,,4.13,CUST00781
+Personal Loan,PROD004,2024-12-23,7177.6,24,Home Improvement,Approved,,6.61,CUST00782
+Education Loan,PROD001,2024-02-20,10917.28,60,Debt Consolidation,Approved,,6.26,CUST00783
+Car Loan,PROD005,2025-05-16,70306.15,12,Education,Rejected,High DTI,8.26,CUST00784
+Business Loan,PROD001,2023-07-20,10418.82,48,Car Purchase,Approved,,4.29,CUST00785
+Home Loan,PROD002,2025-04-25,52156.37,12,Car Purchase,Approved,,9.66,CUST00786
+Education Loan,PROD005,2023-12-20,7304.3,36,Debt Consolidation,Approved,,9.0,CUST00787
+Car Loan,PROD005,2024-10-11,44326.97,48,Car Purchase,Approved,,6.87,CUST00788
+Home Loan,PROD005,2025-05-02,72046.92,24,Education,Rejected,Incomplete Documents,8.48,CUST00789
+Car Loan,PROD003,2025-05-02,64508.32,24,Debt Consolidation,Approved,,5.33,CUST00790
+Business Loan,PROD003,2025-05-25,43805.48,24,Car Purchase,Rejected,High DTI,7.42,CUST00791
+Car Loan,PROD002,2023-11-17,27510.88,48,Small Business,Rejected,High DTI,7.06,CUST00792
+Car Loan,PROD005,2024-04-13,21565.88,60,Small Business,Approved,,3.65,CUST00793
+Car Loan,PROD001,2023-12-13,31177.92,36,Education,Rejected,Unstable Employment,8.41,CUST00794
+Car Loan,PROD003,2024-04-30,69133.1,24,Car Purchase,Approved,,6.16,CUST00795
+Car Loan,PROD004,2023-10-22,49997.66,48,Small Business,Rejected,Low Credit Score,3.32,CUST00796
+Personal Loan,PROD001,2024-08-16,68312.46,48,Education,Approved,,7.05,CUST00797
+Home Loan,PROD001,2024-03-23,59623.68,60,Home Improvement,Rejected,Bankruptcy History,8.86,CUST00798
+Business Loan,PROD002,2024-12-06,22953.64,48,Small Business,Approved,,6.73,CUST00799
+Education Loan,PROD001,2024-11-25,72233.58,60,Car Purchase,Rejected,High DTI,3.22,CUST00800
+Education Loan,PROD001,2024-08-19,52813.49,12,Education,Rejected,Low Credit Score,10.2,CUST00801
+Home Loan,PROD002,2023-07-15,26040.4,48,Home Improvement,Approved,,9.39,CUST00802
+Personal Loan,PROD005,2024-02-24,70356.03,24,Small Business,Rejected,Incomplete Documents,8.48,CUST00803
+Car Loan,PROD001,2024-01-30,21192.98,48,Debt Consolidation,Rejected,Bankruptcy History,5.17,CUST00804
+Business Loan,PROD003,2024-12-10,7506.65,48,Car Purchase,Rejected,Bankruptcy History,9.15,CUST00805
+Personal Loan,PROD004,2024-02-21,64472.78,36,Car Purchase,Rejected,High DTI,7.56,CUST00806
+Car Loan,PROD002,2023-10-19,29676.95,24,Car Purchase,Rejected,High DTI,3.11,CUST00807
+Business Loan,PROD001,2023-07-29,57714.03,12,Debt Consolidation,Rejected,Incomplete Documents,8.31,CUST00808
+Personal Loan,PROD002,2024-09-01,68882.18,36,Small Business,Rejected,Incomplete Documents,8.34,CUST00809
+Car Loan,PROD002,2023-07-03,63008.65,24,Debt Consolidation,Approved,,8.47,CUST00810
+Education Loan,PROD001,2025-01-29,49148.1,48,Small Business,Rejected,High DTI,5.92,CUST00811
+Personal Loan,PROD002,2024-08-27,68148.21,36,Home Improvement,Approved,,7.71,CUST00812
+Education Loan,PROD002,2023-10-09,32884.87,48,Home Improvement,Rejected,High DTI,3.17,CUST00813
+Home Loan,PROD005,2024-04-04,25349.34,12,Education,Rejected,Unstable Employment,6.85,CUST00814
+Education Loan,PROD003,2024-06-04,24294.48,12,Home Improvement,Rejected,High DTI,4.27,CUST00815
+Education Loan,PROD003,2023-09-06,41917.55,24,Debt Consolidation,Rejected,Incomplete Documents,3.86,CUST00816
+Home Loan,PROD005,2023-10-25,61028.7,36,Home Improvement,Rejected,High DTI,6.37,CUST00817
+Home Loan,PROD002,2024-02-04,45170.39,48,Car Purchase,Approved,,3.68,CUST00818
+Education Loan,PROD001,2024-07-23,27720.34,60,Debt Consolidation,Approved,,5.78,CUST00819
+Education Loan,PROD002,2025-01-30,61574.9,60,Education,Approved,,8.66,CUST00820
+Personal Loan,PROD004,2025-03-13,20608.42,12,Debt Consolidation,Approved,,7.43,CUST00821
+Personal Loan,PROD004,2025-04-25,22041.95,12,Debt Consolidation,Approved,,10.41,CUST00822
+Personal Loan,PROD003,2024-01-01,71648.67,60,Home Improvement,Approved,,7.01,CUST00823
+Car Loan,PROD001,2023-06-10,53923.18,36,Home Improvement,Approved,,8.91,CUST00824
+Education Loan,PROD003,2024-01-17,55469.89,12,Home Improvement,Approved,,8.1,CUST00825
+Business Loan,PROD003,2025-02-12,72098.78,36,Education,Approved,,7.27,CUST00826
+Personal Loan,PROD001,2024-06-19,49541.19,60,Small Business,Rejected,Low Credit Score,9.29,CUST00827
+Education Loan,PROD005,2024-04-19,51892.36,24,Small Business,Approved,,8.36,CUST00828
+Personal Loan,PROD004,2025-02-20,21391.81,60,Education,Approved,,5.47,CUST00829
+Personal Loan,PROD002,2023-07-17,15311.09,12,Home Improvement,Rejected,Bankruptcy History,6.55,CUST00830
+Car Loan,PROD001,2024-06-30,36900.92,36,Education,Rejected,High DTI,10.48,CUST00831
+Car Loan,PROD001,2024-10-24,47784.61,12,Education,Rejected,Incomplete Documents,8.79,CUST00832
+Home Loan,PROD002,2023-12-11,28381.03,12,Car Purchase,Approved,,9.15,CUST00833
+Personal Loan,PROD001,2025-02-20,48055.95,24,Small Business,Approved,,8.08,CUST00834
+Car Loan,PROD004,2024-12-25,25610.15,60,Education,Approved,,6.89,CUST00835
+Education Loan,PROD005,2023-06-22,49382.59,60,Education,Approved,,7.21,CUST00836
+Education Loan,PROD001,2024-05-07,69063.56,60,Education,Rejected,Incomplete Documents,9.69,CUST00837
+Car Loan,PROD001,2023-12-10,72968.88,24,Education,Rejected,Bankruptcy History,7.84,CUST00838
+Education Loan,PROD002,2024-02-13,73033.99,12,Small Business,Approved,,9.16,CUST00839
+Car Loan,PROD002,2025-05-03,23958.25,48,Home Improvement,Rejected,Bankruptcy History,5.92,CUST00840
+Education Loan,PROD003,2024-01-04,21687.47,60,Small Business,Rejected,Incomplete Documents,2.53,CUST00841
+Business Loan,PROD004,2024-04-23,18163.41,60,Education,Approved,,2.53,CUST00842
+Personal Loan,PROD002,2023-07-09,55388.69,24,Small Business,Approved,,5.9,CUST00843
+Personal Loan,PROD002,2023-06-13,26880.23,12,Home Improvement,Rejected,Incomplete Documents,8.59,CUST00844
+Education Loan,PROD003,2024-12-30,63274.07,36,Car Purchase,Approved,,10.3,CUST00845
+Home Loan,PROD005,2024-06-14,49940.95,60,Car Purchase,Rejected,Unstable Employment,6.19,CUST00846
+Car Loan,PROD001,2024-08-26,26368.5,24,Car Purchase,Rejected,Low Credit Score,4.28,CUST00847
+Home Loan,PROD005,2024-05-24,19904.82,12,Debt Consolidation,Approved,,5.77,CUST00848
+Home Loan,PROD003,2024-11-30,74425.04,48,Education,Approved,,2.51,CUST00849
+Personal Loan,PROD003,2023-12-16,18804.41,60,Debt Consolidation,Rejected,Bankruptcy History,4.01,CUST00850
+Education Loan,PROD001,2023-07-18,55198.36,12,Home Improvement,Approved,,5.32,CUST00851
+Car Loan,PROD004,2024-10-06,37008.26,60,Education,Rejected,Bankruptcy History,3.69,CUST00852
+Personal Loan,PROD003,2025-03-30,33349.79,60,Education,Rejected,Bankruptcy History,3.33,CUST00853
+Education Loan,PROD003,2025-05-15,42313.03,60,Education,Approved,,3.28,CUST00854
+Business Loan,PROD004,2024-06-01,60335.59,36,Home Improvement,Approved,,7.03,CUST00855
+Education Loan,PROD002,2025-02-03,55677.75,48,Education,Rejected,Unstable Employment,5.85,CUST00856
+Home Loan,PROD003,2025-02-25,31704.39,36,Home Improvement,Approved,,3.29,CUST00857
+Home Loan,PROD004,2024-05-06,41669.89,24,Debt Consolidation,Approved,,6.62,CUST00858
+Personal Loan,PROD002,2024-07-06,37767.14,48,Car Purchase,Approved,,8.42,CUST00859
+Home Loan,PROD005,2024-02-29,63275.31,48,Debt Consolidation,Approved,,8.51,CUST00860
+Business Loan,PROD004,2025-01-11,15070.6,60,Car Purchase,Approved,,7.48,CUST00861
+Education Loan,PROD004,2024-03-24,10622.62,12,Home Improvement,Approved,,8.06,CUST00862
+Business Loan,PROD003,2023-12-28,31728.74,24,Education,Rejected,Incomplete Documents,3.56,CUST00863
+Car Loan,PROD003,2023-12-19,65343.56,24,Home Improvement,Approved,,7.41,CUST00864
+Personal Loan,PROD005,2025-03-12,29830.75,48,Home Improvement,Approved,,2.75,CUST00865
+Car Loan,PROD003,2025-01-09,42611.72,36,Car Purchase,Rejected,Low Credit Score,9.89,CUST00866
+Business Loan,PROD002,2024-09-05,46746.59,48,Car Purchase,Rejected,Bankruptcy History,10.27,CUST00867
+Education Loan,PROD003,2024-11-19,14551.58,24,Home Improvement,Approved,,7.05,CUST00868
+Personal Loan,PROD005,2023-09-28,60868.75,36,Small Business,Approved,,6.7,CUST00869
+Business Loan,PROD005,2024-01-31,11374.64,60,Small Business,Rejected,Unstable Employment,7.16,CUST00870
+Education Loan,PROD003,2025-02-08,47821.65,36,Education,Rejected,Bankruptcy History,8.33,CUST00871
+Car Loan,PROD003,2024-02-20,58284.81,36,Debt Consolidation,Rejected,Unstable Employment,8.67,CUST00872
+Car Loan,PROD003,2024-08-22,51441.11,36,Home Improvement,Approved,,4.23,CUST00873
+Personal Loan,PROD005,2023-11-28,33296.5,12,Education,Approved,,8.71,CUST00874
+Business Loan,PROD005,2023-12-10,71739.89,60,Car Purchase,Approved,,3.13,CUST00875
+Business Loan,PROD002,2023-12-15,42487.57,36,Debt Consolidation,Approved,,5.0,CUST00876
+Business Loan,PROD004,2024-07-19,20777.57,36,Car Purchase,Approved,,6.55,CUST00877
+Business Loan,PROD003,2025-04-22,47426.25,48,Debt Consolidation,Approved,,2.58,CUST00878
+Home Loan,PROD005,2024-06-27,59614.46,60,Car Purchase,Approved,,9.06,CUST00879
+Car Loan,PROD002,2024-03-23,72585.76,12,Small Business,Approved,,3.95,CUST00880
+Personal Loan,PROD005,2024-08-16,46618.68,48,Car Purchase,Approved,,5.91,CUST00881
+Business Loan,PROD004,2024-02-04,28437.95,24,Small Business,Approved,,7.03,CUST00882
+Business Loan,PROD005,2024-01-27,59766.82,60,Debt Consolidation,Approved,,2.68,CUST00883
+Home Loan,PROD002,2024-04-12,72858.01,24,Home Improvement,Approved,,8.98,CUST00884
+Home Loan,PROD005,2024-07-30,57580.76,48,Home Improvement,Rejected,High DTI,8.58,CUST00885
+Car Loan,PROD001,2023-07-18,32234.25,48,Education,Rejected,Low Credit Score,8.51,CUST00886
+Personal Loan,PROD003,2023-06-05,32073.91,60,Debt Consolidation,Approved,,9.69,CUST00887
+Car Loan,PROD003,2023-09-07,17405.57,48,Debt Consolidation,Approved,,4.84,CUST00888
+Personal Loan,PROD004,2023-10-17,43593.63,60,Car Purchase,Approved,,5.05,CUST00889
+Car Loan,PROD001,2023-06-13,34696.61,24,Home Improvement,Rejected,Low Credit Score,6.44,CUST00890
+Personal Loan,PROD003,2024-10-30,64944.73,60,Education,Approved,,6.69,CUST00891
+Personal Loan,PROD004,2024-09-19,30372.19,12,Car Purchase,Approved,,4.48,CUST00892
+Business Loan,PROD002,2024-05-11,33607.32,60,Home Improvement,Rejected,Low Credit Score,6.63,CUST00893
+Car Loan,PROD003,2024-04-24,57228.04,12,Car Purchase,Approved,,3.47,CUST00894
+Home Loan,PROD002,2024-01-01,20512.64,48,Education,Rejected,Unstable Employment,5.54,CUST00895
+Personal Loan,PROD005,2024-03-31,30227.89,60,Education,Approved,,5.63,CUST00896
+Car Loan,PROD003,2024-03-10,60546.49,60,Education,Rejected,Unstable Employment,5.09,CUST00897
+Home Loan,PROD005,2023-11-05,40132.87,48,Small Business,Rejected,Low Credit Score,7.49,CUST00898
+Business Loan,PROD002,2023-07-25,21252.5,12,Debt Consolidation,Rejected,Unstable Employment,8.25,CUST00899
+Business Loan,PROD003,2024-12-02,43297.79,24,Debt Consolidation,Approved,,6.07,CUST00900
+Personal Loan,PROD004,2024-12-17,61684.88,48,Car Purchase,Approved,,4.45,CUST00901
+Home Loan,PROD001,2024-06-22,66822.32,24,Small Business,Approved,,6.99,CUST00902
+Business Loan,PROD003,2025-04-30,47642.24,12,Car Purchase,Approved,,9.5,CUST00903
+Personal Loan,PROD002,2024-10-30,62230.79,24,Education,Approved,,7.31,CUST00904
+Car Loan,PROD002,2024-03-18,57723.14,12,Car Purchase,Rejected,High DTI,5.97,CUST00905
+Personal Loan,PROD004,2024-11-17,43316.44,36,Car Purchase,Approved,,3.0,CUST00906
+Personal Loan,PROD004,2025-04-22,11290.05,24,Home Improvement,Rejected,Low Credit Score,9.14,CUST00907
+Personal Loan,PROD002,2024-09-22,9177.02,48,Small Business,Approved,,3.86,CUST00908
+Education Loan,PROD005,2024-02-19,60708.29,48,Home Improvement,Rejected,Incomplete Documents,2.51,CUST00909
+Home Loan,PROD005,2024-08-14,24768.3,36,Car Purchase,Approved,,7.17,CUST00910
+Business Loan,PROD003,2024-04-22,46681.5,48,Small Business,Approved,,8.72,CUST00911
+Home Loan,PROD002,2023-09-13,40414.84,12,Education,Approved,,6.58,CUST00912
+Education Loan,PROD003,2024-11-16,55771.74,12,Education,Approved,,6.49,CUST00913
+Personal Loan,PROD002,2024-11-04,47594.38,12,Debt Consolidation,Approved,,9.68,CUST00914
+Car Loan,PROD003,2024-10-03,33101.57,12,Car Purchase,Rejected,High DTI,5.58,CUST00915
+Business Loan,PROD003,2024-06-03,5248.43,12,Car Purchase,Approved,,7.41,CUST00916
+Car Loan,PROD005,2023-12-24,7084.03,60,Education,Rejected,Unstable Employment,6.53,CUST00917
+Education Loan,PROD003,2023-09-09,61296.37,24,Debt Consolidation,Rejected,Bankruptcy History,6.9,CUST00918
+Car Loan,PROD002,2025-03-03,23874.53,24,Car Purchase,Approved,,8.79,CUST00919
+Business Loan,PROD002,2023-11-16,23880.19,60,Car Purchase,Approved,,8.36,CUST00920
+Home Loan,PROD002,2023-11-28,47718.09,12,Car Purchase,Approved,,3.86,CUST00921
+Personal Loan,PROD004,2024-01-21,68359.37,60,Home Improvement,Approved,,4.11,CUST00922
+Car Loan,PROD002,2024-10-25,74271.1,12,Home Improvement,Rejected,High DTI,2.56,CUST00923
+Car Loan,PROD002,2023-09-04,23443.84,36,Education,Approved,,4.1,CUST00924
+Education Loan,PROD004,2025-04-26,5979.54,12,Home Improvement,Approved,,8.36,CUST00925
+Education Loan,PROD004,2025-03-18,53539.81,36,Home Improvement,Approved,,8.84,CUST00926
+Education Loan,PROD004,2023-09-28,22968.9,24,Small Business,Rejected,Bankruptcy History,6.05,CUST00927
+Business Loan,PROD003,2024-07-29,51137.95,36,Home Improvement,Rejected,High DTI,6.02,CUST00928
+Car Loan,PROD003,2024-11-19,53812.8,36,Car Purchase,Approved,,7.57,CUST00929
+Home Loan,PROD001,2023-12-05,13025.35,24,Small Business,Rejected,High DTI,8.75,CUST00930
+Business Loan,PROD003,2024-01-11,55447.35,48,Car Purchase,Approved,,7.75,CUST00931
+Car Loan,PROD001,2025-03-01,15856.55,24,Debt Consolidation,Approved,,4.64,CUST00932
+Car Loan,PROD001,2025-05-17,32522.39,24,Debt Consolidation,Rejected,Incomplete Documents,4.74,CUST00933
+Education Loan,PROD001,2023-12-04,20946.72,60,Home Improvement,Approved,,8.94,CUST00934
+Home Loan,PROD004,2024-10-08,49676.26,24,Car Purchase,Approved,,7.02,CUST00935
+Car Loan,PROD003,2025-04-07,20816.69,12,Debt Consolidation,Approved,,9.84,CUST00936
+Home Loan,PROD004,2024-06-01,18382.81,48,Small Business,Rejected,Unstable Employment,8.86,CUST00937
+Education Loan,PROD001,2023-06-20,72667.09,48,Education,Approved,,8.32,CUST00938
+Personal Loan,PROD003,2023-12-06,74500.11,48,Home Improvement,Approved,,7.71,CUST00939
+Business Loan,PROD005,2024-05-25,20222.22,24,Home Improvement,Rejected,Unstable Employment,4.13,CUST00940
+Education Loan,PROD003,2024-02-21,27719.5,60,Car Purchase,Approved,,2.56,CUST00941
+Business Loan,PROD004,2023-10-25,52718.89,24,Car Purchase,Rejected,Bankruptcy History,4.65,CUST00942
+Personal Loan,PROD005,2024-04-01,62062.83,12,Car Purchase,Rejected,High DTI,5.37,CUST00943
+Personal Loan,PROD005,2025-04-05,38596.95,12,Small Business,Approved,,10.23,CUST00944
+Personal Loan,PROD004,2024-09-20,21952.05,48,Small Business,Approved,,8.27,CUST00945
+Personal Loan,PROD003,2025-02-19,57858.25,60,Car Purchase,Approved,,4.27,CUST00946
+Car Loan,PROD004,2024-04-20,40069.78,24,Car Purchase,Approved,,5.3,CUST00947
+Education Loan,PROD005,2024-07-04,59033.44,12,Car Purchase,Approved,,7.48,CUST00948
+Home Loan,PROD002,2024-03-18,38318.81,12,Home Improvement,Approved,,8.73,CUST00949
+Home Loan,PROD001,2024-06-06,21460.89,60,Small Business,Rejected,Bankruptcy History,8.53,CUST00950
+Home Loan,PROD002,2024-03-04,65576.2,36,Small Business,Approved,,9.53,CUST00951
+Education Loan,PROD005,2023-11-26,59857.15,12,Home Improvement,Approved,,5.76,CUST00952
+Education Loan,PROD001,2025-05-31,73726.56,48,Debt Consolidation,Approved,,5.54,CUST00953
+Home Loan,PROD002,2024-09-07,49703.78,60,Car Purchase,Approved,,3.79,CUST00954
+Personal Loan,PROD001,2023-07-22,73631.42,60,Small Business,Rejected,Incomplete Documents,8.13,CUST00955
+Personal Loan,PROD003,2024-03-25,57736.43,24,Small Business,Approved,,3.03,CUST00956
+Personal Loan,PROD001,2024-10-13,58439.25,48,Home Improvement,Approved,,8.7,CUST00957
+Car Loan,PROD002,2024-09-16,52024.09,24,Education,Rejected,Bankruptcy History,4.84,CUST00958
+Personal Loan,PROD002,2023-08-21,39278.3,24,Small Business,Approved,,3.38,CUST00959
+Education Loan,PROD002,2023-10-26,38011.09,24,Debt Consolidation,Rejected,Low Credit Score,4.45,CUST00960
+Personal Loan,PROD002,2024-09-26,29436.79,24,Home Improvement,Approved,,3.8,CUST00961
+Education Loan,PROD002,2023-12-23,21103.81,48,Debt Consolidation,Approved,,3.11,CUST00962
+Personal Loan,PROD005,2024-03-22,69393.1,48,Car Purchase,Approved,,6.74,CUST00963
+Car Loan,PROD001,2024-08-02,32771.94,60,Car Purchase,Approved,,6.78,CUST00964
+Car Loan,PROD003,2025-01-29,48980.53,36,Education,Rejected,Unstable Employment,9.88,CUST00965
+Home Loan,PROD003,2024-09-17,17508.51,60,Small Business,Approved,,4.86,CUST00966
+Education Loan,PROD005,2023-11-28,73305.25,60,Small Business,Approved,,5.47,CUST00967
+Personal Loan,PROD001,2023-12-01,6579.32,36,Education,Approved,,3.68,CUST00968
+Home Loan,PROD002,2023-09-09,6843.71,12,Small Business,Rejected,Unstable Employment,10.42,CUST00969
+Education Loan,PROD005,2024-06-12,24520.96,36,Small Business,Rejected,Low Credit Score,9.89,CUST00970
+Personal Loan,PROD002,2024-03-31,74712.04,48,Education,Approved,,7.3,CUST00971
+Personal Loan,PROD005,2024-04-05,7323.74,24,Education,Rejected,Bankruptcy History,3.15,CUST00972
+Car Loan,PROD002,2025-05-28,38711.23,60,Education,Rejected,Unstable Employment,5.75,CUST00973
+Car Loan,PROD003,2025-02-25,47432.41,24,Education,Approved,,6.01,CUST00974
+Education Loan,PROD004,2023-08-09,70385.38,36,Car Purchase,Approved,,6.78,CUST00975
+Car Loan,PROD003,2024-03-20,53560.82,60,Car Purchase,Approved,,9.67,CUST00976
+Home Loan,PROD004,2023-11-18,15281.03,12,Education,Approved,,4.34,CUST00977
+Personal Loan,PROD005,2024-09-27,12512.31,12,Car Purchase,Approved,,3.62,CUST00978
+Business Loan,PROD002,2024-06-25,40880.88,12,Small Business,Rejected,Unstable Employment,5.07,CUST00979
+Car Loan,PROD002,2024-01-06,34622.1,60,Home Improvement,Rejected,Unstable Employment,10.36,CUST00980
+Home Loan,PROD003,2024-07-12,15969.3,48,Home Improvement,Rejected,High DTI,6.83,CUST00981
+Car Loan,PROD005,2023-08-21,11920.98,36,Debt Consolidation,Approved,,5.05,CUST00982
+Business Loan,PROD004,2025-02-02,41926.81,24,Car Purchase,Rejected,Bankruptcy History,10.07,CUST00983
+Education Loan,PROD002,2023-09-03,32385.98,48,Small Business,Rejected,High DTI,3.02,CUST00984
+Personal Loan,PROD002,2024-05-23,32171.3,12,Education,Rejected,Bankruptcy History,3.67,CUST00985
+Home Loan,PROD003,2023-09-27,21099.27,36,Small Business,Approved,,7.44,CUST00986
+Business Loan,PROD001,2025-01-22,9719.67,60,Home Improvement,Rejected,Unstable Employment,6.22,CUST00987
+Car Loan,PROD002,2025-01-27,47662.31,12,Car Purchase,Approved,,5.87,CUST00988
+Business Loan,PROD001,2023-09-25,6338.84,12,Debt Consolidation,Approved,,10.38,CUST00989
+Business Loan,PROD005,2024-02-19,30698.1,24,Car Purchase,Approved,,8.73,CUST00990
+Home Loan,PROD001,2023-09-01,27795.25,24,Car Purchase,Approved,,6.3,CUST00991
+Home Loan,PROD002,2023-10-15,32192.45,12,Debt Consolidation,Approved,,5.24,CUST00992
+Personal Loan,PROD005,2025-02-12,6529.6,12,Small Business,Rejected,Unstable Employment,5.38,CUST00993
+Car Loan,PROD004,2024-02-09,67264.3,60,Education,Approved,,8.02,CUST00994
+Business Loan,PROD004,2024-06-09,15179.6,48,Home Improvement,Rejected,Unstable Employment,7.23,CUST00995
+Home Loan,PROD005,2024-01-24,67456.16,12,Debt Consolidation,Rejected,Incomplete Documents,8.1,CUST00996
+Personal Loan,PROD005,2024-07-08,15407.91,60,Education,Rejected,Low Credit Score,9.44,CUST00997
+Personal Loan,PROD003,2023-09-01,26108.08,24,Home Improvement,Approved,,6.13,CUST00998
+Home Loan,PROD004,2025-03-31,41829.99,24,Small Business,Rejected,Incomplete Documents,9.3,CUST00999
